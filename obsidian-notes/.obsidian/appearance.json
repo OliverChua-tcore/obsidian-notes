@@ -1,0 +1,10 @@
+{
+  "accentColor": "",
+  "cssTheme": "Blue Topaz",
+  "showRibbon": false,
+  "baseFontSize": 20,
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "S - Checkboxes"
+  ]
+}

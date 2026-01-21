@@ -1,0 +1,2 @@
+> [!info]- Document
+> ![[sample.pdf]]

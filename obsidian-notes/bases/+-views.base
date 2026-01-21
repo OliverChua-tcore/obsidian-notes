@@ -1,0 +1,23 @@
+filters:
+  and:
+    - file.folder.startsWith("+")
+views:
+  - type: table
+    name: '"+"'
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.ctime
+      - file.mtime
+      - title
+      - aliases
+      - tags
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 500
+      note.title: 500
+      note.aliases: 500

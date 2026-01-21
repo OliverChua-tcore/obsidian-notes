@@ -1,0 +1,51 @@
+filters:
+  and:
+    - file.folder.startsWith("things")
+properties:
+  file.name:
+    displayName: File
+  note.title:
+    displayName: Title
+  note.aliases:
+    displayName: Aliases
+  file.tags:
+    displayName: Tags
+views:
+  - type: table
+    name: THINGS
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.ctime
+      - file.mtime
+      - title
+      - aliases
+      - tags
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 500
+      note.title: 500
+      note.aliases: 500
+  - type: table
+    name: Software
+    filters:
+      and:
+        - file.tags.contains("software")
+    order:
+      - title
+      - aliases
+      - file.tags
+      - file.name
+    sort:
+      - property: title
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.title: 500
+      file.tags: 500
+      file.name: 500
