@@ -1,0 +1,23 @@
+{
+  "blue-topaz-theme@@layout-style-options": "bt-bubble-layout",
+  "blue-topaz-theme@@file-line-width": 60,
+  "Blue-Topaz-Codebox-Highlight@@text-color-code@@light": "#FFFFFF",
+  "Blue-Topaz-Codebox-Highlight@@background-code-2@@light": "#00000080",
+  "blue-topaz-theme@@h1-toggle-underline": true,
+  "blue-topaz-theme@@header-1-background": true,
+  "blue-topaz-theme@@h2-toggle-underline": true,
+  "blue-topaz-theme@@h2-underline-style": "dotted",
+  "blue-topaz-theme@@fancy-hr": "fancy-hr-icon",
+  "blue-topaz-theme@@fancy-hr-icon": "'🔹'",
+  "checkbox@@check-color": true,
+  "Blue-Topaz-Codebox-Highlight@@code-line-number": true,
+  "blue-topaz-theme@@toggle-checked-decoration": true,
+  "blue-topaz-theme@@checkbox-size": "1.3rem",
+  "blue-topaz-theme@@tag-style-option": "rainbow-tag",
+  "blue-topaz-theme@@outline-style": "logseq-outline-style",
+  "blue-topaz-theme@@prompt-options": "fancy-prompt-1",
+  "blue-topaz-theme@@tab-head-style": "underline-tab-style",
+  "blue-topaz-theme@@highlight-style": "all-rounded-corners-highlight",
+  "blue-topaz-theme@@toggle-calendar-shadow": true,
+  "blue-topaz-theme@@enable-alternative-checkboxes": false
+}

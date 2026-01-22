@@ -10,6 +10,16 @@ properties:
     displayName: Aliases
   file.tags:
     displayName: Tags
+  file.ctime:
+    displayName: Created
+  file.mtime:
+    displayName: Modified
+  note.tags:
+    displayName: Tags
+  note.software-author:
+    displayName: Author
+  note.created:
+    displayName: Created
 views:
   - type: table
     name: THINGS
@@ -18,34 +28,45 @@ views:
       direction: ASC
     order:
       - file.name
-      - file.ctime
+      - title
+      - created
       - file.mtime
-      - title
-      - aliases
       - tags
-    sort:
-      - property: file.name
-        direction: ASC
-    columnSize:
-      file.name: 500
-      note.title: 500
-      note.aliases: 500
-  - type: table
-    name: Software
-    filters:
-      and:
-        - file.tags.contains("software")
-    order:
-      - title
       - aliases
-      - file.tags
-      - file.name
     sort:
       - property: title
         direction: ASC
       - property: file.name
         direction: ASC
     columnSize:
+      file.name: 100
       note.title: 500
+      file.mtime: 180
+      note.tags: 500
+      note.aliases: 500
+      note.created: 120
+  - type: table
+    name: Software
+    filters:
+      and:
+        - file.tags.contains("software")
+        - file.name != "software"
+    groupBy:
+      property: navigate-up
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - software-author
+      - file.tags
+      - aliases
+    sort:
+      - property: title
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 100
+      note.title: 500
+      note.software-author: 250
       file.tags: 500
-      file.name: 500

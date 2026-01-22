@@ -1,3 +1,6 @@
-/obsidian-notes/+
-/obsidian-notes/local/
+.backup/
+obsidian-notes/+/
+obsidian-notes/calendar/
+obsidian-notes/local/
 obsidian-notes/x/attachments/
+obsidian-notes/.obsidian/workspace.json
