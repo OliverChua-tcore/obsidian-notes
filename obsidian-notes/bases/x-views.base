@@ -1,6 +1,19 @@
 filters:
   and:
     - file.folder.startsWith("x")
+properties:
+  file.name:
+    displayName: File
+  file.ctime:
+    displayName: Created
+  file.mtime:
+    displayName: Modified
+  note.title:
+    displayName: Title
+  note.aliases:
+    displayName: Aliases
+  note.tags:
+    displayName: Tags
 views:
   - type: table
     name: '"X"'
@@ -9,15 +22,20 @@ views:
       direction: ASC
     order:
       - file.name
+      - title
       - file.ctime
       - file.mtime
-      - title
-      - aliases
       - tags
+      - aliases
     sort:
+      - property: title
+        direction: ASC
       - property: file.name
         direction: ASC
     columnSize:
       file.name: 500
       note.title: 500
+      file.ctime: 150
+      file.mtime: 150
+      note.tags: 500
       note.aliases: 500

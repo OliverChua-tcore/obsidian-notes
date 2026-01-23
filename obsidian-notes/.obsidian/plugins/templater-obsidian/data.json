@@ -1,0 +1,74 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "x/templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "calendar/1-daily-notes",
+      "template": "x/templates/periodic-notes-templates/daily-notes-template.md"
+    },
+    {
+      "folder": "calendar/2-weekly-notes",
+      "template": "x/templates/periodic-notes-templates/weekly-notes-template.md"
+    },
+    {
+      "folder": "calendar/3-monthly-notes",
+      "template": "x/templates/periodic-notes-templates/monthly-notes-template.md"
+    },
+    {
+      "folder": "calendar/4-quarterly-notes",
+      "template": "x/templates/periodic-notes-templates/quarterly-notes-template.md"
+    },
+    {
+      "folder": "calendar/5-yearly-notes",
+      "template": "x/templates/periodic-notes-templates/yearly-notes-template.md"
+    },
+    {
+      "folder": "things/cars",
+      "template": "x/templates/category-templates/cars-template.md"
+    },
+    {
+      "folder": "things/people",
+      "template": "x/templates/category-templates/people-template.md"
+    },
+    {
+      "folder": "things/places",
+      "template": "x/templates/category-templates/places-template.md"
+    },
+    {
+      "folder": "things/software",
+      "template": "x/templates/category-templates/software-template.md"
+    },
+    {
+      "folder": "/",
+      "template": "x/templates/blank-template.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "x/templates/a-snippet.md"
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1
+}

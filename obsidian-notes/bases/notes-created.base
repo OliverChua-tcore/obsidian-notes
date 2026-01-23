@@ -1,0 +1,29 @@
+filters:
+  and:
+    - note["created"] >= this["short-date"]
+    - note["created"] < this["short-date"] + duration("1 day")
+properties:
+  file.name:
+    displayName: File
+  note.created:
+    displayName: Created
+  note.title:
+    displayName: Title
+  file.mtime:
+    displayName: Modified
+views:
+  - type: table
+    name: Notes created today
+    order:
+      - file.name
+      - title
+      - created
+      - file.mtime
+    sort:
+      - property: created
+        direction: ASC
+    columnSize:
+      file.name: 100
+      note.title: 500
+      note.created: 200
+      file.mtime: 180
