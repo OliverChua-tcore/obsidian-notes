@@ -30,33 +30,25 @@ views:
         direction: DESC
     limit: 7
 ```
+- 🪹 [[out-of-office|Out-of-office dates]]
 
-### 📋 [[tasks-main|Tasks]]
-### 💰 [[Ledger]]
-### 👨‍👩‍👧‍👦 [[my-family|My family]]
-- 🏡 [[my-homes|Our homes & addresses]]
-- 🚗 [[my-cars|Cars we've owned]]
-- 📦 [[inventory|Inventory]]
+## 🧑‍💻 [[tickets-main|Tickets]]
+![[tickets-active-views.base]]
+
+## 📋 [[tasks-main|Tasks]]
+![[tasks-main#To-do/in-progress tasks]]
+
+## 🚧 Projects
+- 
+
+## 🗃️ Repositories
+- 
 
 ## Categories
 
 ### 🧑‍🤝‍🧑 [[People]]
 ### 🗺️ [[Places]]
-### 🚙 [[Cars]]
 ### 💾 [[software|Software]]
-### 🩺 [[Health]]
-### 🧳 [[Travel]]
-- 💬 [[Lingua franca]]
-- 🛄 [[travel-checklist|Travel checklist]]
-### 🛍️ [[Retail]]
-- 🛒 [[shopping-lists|Shopping lists]]
-
-## The arts
-
-### 🎷 [[Music]]
-### 📷 [[Photography]]
-### 🎭 [[Dramatic works]]
-### 📚 [[Written works]]
 - 📰 [[reading-lists|Reading lists]]
 
 ---

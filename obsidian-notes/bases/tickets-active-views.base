@@ -1,0 +1,45 @@
+filters:
+  and:
+    - file.tags.contains("tickets")
+    - file.tags.contains("projects")
+properties:
+  file.name:
+    displayName: Ticket
+  note.ticket-title:
+    displayName: Title
+  note.ticket-ilms:
+    displayName: ILMS
+views:
+  - type: table
+    name: Active tickets
+    filters:
+      and:
+        - file.tags.contains("tickets/active")
+    groupBy:
+      property: file.tags
+      direction: ASC
+    order:
+      - file.name
+      - ticket-ilms
+      - ticket-title
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 150
+      note.ticket-ilms: 150
+  - type: table
+    name: Inactive tickets
+    filters:
+      and:
+        - '!file.tags.contains("tickets/active")'
+    groupBy:
+      property: file.tags
+      direction: ASC
+    order:
+      - file.name
+      - ticket-ilms
+      - ticket-title
+    sort:
+      - property: file.mtime
+        direction: DESC

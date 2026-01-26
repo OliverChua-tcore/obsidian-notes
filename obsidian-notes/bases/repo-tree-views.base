@@ -1,0 +1,19 @@
+filters:
+  and:
+    - note["navigate-up"].contains(this.file.name)
+properties:
+  file.name:
+    displayName: File
+  note.title:
+    displayName: Title
+views:
+  - type: table
+    name: Repo tree
+    order:
+      - file.name
+      - title
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 100

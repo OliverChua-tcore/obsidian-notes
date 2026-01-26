@@ -15,6 +15,7 @@ const fileDate = moment(tp.file.title,'YYYY-MM-DD');
 const year = fileDate.format("YYYY");
 const shortDate = fileDate.format("YYYY-MM-DD");
 const longDate = fileDate.format("dddd, MMMM D, YYYY");
+const filenameDate = fileDate.format("YYYY-MM-DD-dddd");
 -%>
 title: "<% shortDate %> | <% longDate %>"
 aliases:
@@ -70,10 +71,12 @@ dv.paragraph(nav[0] + ' ← ' + nav[1] + ' → ' + nav[2]);
 > ![[notes-modified.base]]
 
 ## 🤝 Today's meetings
--
+- [ ] Daily scrum
 
-## 💰 Today's financial transactions
-- 
+## 📋 Tasks created today
+- [ ] <% recurringTag %> Triage notes in [[<% filenameDate %>|<% shortDate %>]] daily note 🔽 ➕ <% shortDate %> 🛫 <% shortDate %> ⏳ <% shortDate %> 📅 <% shortDate %>
+- [ ] <% recurringTag %> Send morning update for [[<% filenameDate %>|<% shortDate %>]] ➕ <% shortDate %> 🛫 <% shortDate %> ⏳ <% shortDate %> 📅 <% shortDate %>
+- [ ] <% recurringTag %> Send evening update for [[<% filenameDate %>|<% shortDate %>]] ➕ <% shortDate %> 🛫 <% shortDate %> ⏳ <% shortDate %> 📅 <% shortDate %>
 
 ## 📅 Daily questions
 ##### 🕙 Last night, I...
@@ -88,7 +91,12 @@ dv.paragraph(nav[0] + ' ← ' + nav[1] + ' → ' + nav[2]);
 ##### 😭 One thing I'm struggling with today is...
 - 
 
-## 📋 Tasks created today
-- [ ] <% recurringTag %> Triage notes in [[<% fileDate.format("YYYY-MM-DD-dddd") %>|<% shortDate %>]] daily note 🔽 ➕ <% shortDate %> 🛫 <% shortDate %> ⏳ <% shortDate %> 📅 <% shortDate %>
+## 🍵 Morning update
+
+_Text for morning update_
+
+## 🌇 Evening update
+
+_Text for evening update_
 
 <% await tp.file.include("[[notes-snippet]]") %>
