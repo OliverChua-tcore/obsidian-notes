@@ -11,13 +11,9 @@ TQ_short_mode: true
 ---
 # 📋 Tasks
 
-## 💰 [[tasks-finance|Financial tasks]]
-## 🏡 [[tasks-home|Home tasks]]
-## ✔️ Other tasks
+## To-do/in-progress tasks
 ```tasks
 filter by function !task.isDone
-tags do not include finance
-tags do not include home
 preset group_by_scheduled
 
 hide cancelled date
@@ -31,8 +27,6 @@ hide done date
 > [!done]- Done/canceled tasks
 > ```tasks
 > filter by function task.isDone
-> tags do not include finance
-> tags do not include home
 > 
 > show cancelled date
 > hide created date

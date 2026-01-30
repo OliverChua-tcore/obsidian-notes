@@ -37,18 +37,24 @@ views:
 
 ## 📋 [[tasks-main|Tasks]]
 ![[tasks-main#To-do/in-progress tasks]]
+> [!tip] Shortcut to add _tasks_ `Ctrl + T`
 
 ## 🚧 Projects
-- 
+</br>
 
 ## 🗃️ Repositories
-- 
+</br>
 
 ## Categories
 
-### 🧑‍🤝‍🧑 [[People]]
-### 🗺️ [[Places]]
-### 💾 [[software|Software]]
+### 🧑‍🤝‍🧑 [[people-main|People]]
+
+### 🗺️ [[things/places/places-main|Places]]
+
+### 💾 [[software-main|Software]]
+
+</br>
+
 - 📰 [[reading-lists|Reading lists]]
 
 ---
