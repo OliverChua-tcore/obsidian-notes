@@ -1,44 +1,52 @@
 ---
-template-version: 1
+type: yearly-note
+template-version: 3
 <%*
 
-// Template for yearly notes
+// Template for yearly notes (filename: "YYYY-[Year]", e.g. "2026-Year")
 
 // Use variables to prevent this template from showing up in backlinks and tag searches
 const navigateUp = "main|🔝";
-const defaultValue = "undefined";
 
-const fileDate = moment(tp.file.title,'YYYY-[Year]');
-const year = fileDate.format("YYYY");
+// Parse from filename "YYYY-[Year]"
+const fileDate = moment(tp.file.title, 'YYYY-[Year]');
+const year     = fileDate.format("YYYY");
+
+// title
+const yearTitle = `Year ${year}`;
 -%>
-title: <% year %>
+title: <% yearTitle %>
 aliases:
-  - "<% year %>"
+  - "<% yearTitle %>"
 created: <% tp.file.creation_date() %>
 tags:
   - review/yearly
 navigate-up:
   - "[[<% navigateUp %>]]"
 ---
-# <% year %> yearly review
+# <% yearTitle %> review
 ```dataviewjs
 const now = new Date();
 const currentYear = now.getFullYear();
 const currFileYear = <% year %>;
 
 // Calculate how many years ago a given year was from today
-const yearsAgo = currentYear - currFileYear;
-let yearsAgoText = '';
+const yearDiff = currFileYear - currentYear;
+let yearDiffText = '';
 
-if (yearsAgo == 0) {
-    yearsAgoText = 'This year';
-} else if (yearsAgo == 1) {
-    yearsAgoText = 'Last year';
+if (yearDiff == 0) {
+    yearDiffText = '**This year**';
+} else if (yearDiff < -1) {
+    yearDiffText = (yearDiff * -1) + ' years ago';
+} else if (yearDiff == -1) {
+    yearDiffText = 'Last year';
+} else if (yearDiff == 1) {
+    yearDiffText = '_Next year_';
 } else {
-    yearsAgoText = yearsAgo + ' years ago';
+    yearDiffText = yearDiff + ' years _from now_';
 }
 
-dv.paragraph(yearsAgoText);
+dv.paragraph(yearDiffText);
 
 <%*
 // Display navigation links for yearly notes based on filenames containing years (e.g., "2023-Year")
@@ -63,12 +71,10 @@ allFiles.forEach(function (p, i) {
 	}
 });
 
-const nav = [];
 const none = '(none)';
+const prevText = prevFile ? '[[' + prevFile[0] + ']]' : none;
+const currText = currFile[0];
+const nextText = nextFile ? '[[' + nextFile[0] + ']]' : none;
 
-nav.push(prevFile ? '[[' + prevFile[0] + ']]' : none);
-nav.push(currFile[0]);
-nav.push(nextFile ? '[[' + nextFile[0] + ']]' : none);
-
-dv.paragraph(nav[0] + ' ← ' + nav[1] + ' → ' + nav[2]);
+dv.paragraph(prevText + ' ← ' + currText + ' → ' + nextText);
 ```

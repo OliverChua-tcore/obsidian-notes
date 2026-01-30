@@ -4,7 +4,7 @@ aliases:
   - Rating system
 created: 2026-01-15 16:56
 tags:
-  - ideas
+  - reference
 navigate-up:
   - "[[main|🔝]]"
 source: https://stephango.com/vault

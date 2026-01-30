@@ -1,11 +1,12 @@
 filters:
   and:
     - file.folder.startsWith("things")
+    - file.name != "_folder"
 properties:
   file.name:
     displayName: File
   note.title:
-    displayName: Title
+    displayName: Name
   note.aliases:
     displayName: Aliases
   file.tags:
@@ -20,6 +21,8 @@ properties:
     displayName: Author
   note.created:
     displayName: Created
+  note.navigate-up:
+    displayName: Parents or Company
 views:
   - type: table
     name: THINGS
@@ -39,7 +42,7 @@ views:
       - property: file.name
         direction: ASC
     columnSize:
-      file.name: 100
+      file.name: 80
       note.title: 500
       file.mtime: 180
       note.tags: 500
@@ -66,7 +69,33 @@ views:
       - property: file.name
         direction: ASC
     columnSize:
-      file.name: 100
+      file.name: 80
       note.title: 500
       note.software-author: 250
+      file.tags: 500
+  - type: table
+    name: People
+    filters:
+      and:
+        - file.tags.contains("people")
+        - '!note["navigate-up"].containsAny(link("main", "🔝"), link("people", "People"))'
+    groupBy:
+      property: tags
+      direction: ASC
+    order:
+      - file.name
+      - navigate-up
+      - title
+      - aliases
+      - file.tags
+    sort:
+      - property: navigate-up
+        direction: ASC
+      - property: title
+        direction: ASC
+    columnSize:
+      file.name: 80
+      note.title: 250
+      note.navigate-up: 350
+      note.aliases: 500
       file.tags: 500

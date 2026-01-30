@@ -32,36 +32,53 @@ views:
 ```
 
 ### 📋 [[tasks-main|Tasks]]
-### 💰 [[Ledger]]
+> [!tip] Shortcut to add _tasks_ `Ctrl + T`
+
 ### 👨‍👩‍👧‍👦 [[my-family|My family]]
 - 🏡 [[my-homes|Our homes & addresses]]
 - 🚗 [[my-cars|Cars we've owned]]
 - 📦 [[inventory|Inventory]]
 
+## Finance
+- 💰 [[chart-of-accounts|Chart of accounts]]
+- 💲 [[finance-trxns.base|Transactions]]
+> [!tip] Shortcut to add _transactions_ `Ctrl + Shift + T`
+
 ## Categories
 
-### 🧑‍🤝‍🧑 [[People]]
-### 🗺️ [[Places]]
-### 🚙 [[Cars]]
-### 💾 [[software|Software]]
-### 🩺 [[Health]]
-### 🧳 [[Travel]]
-- 💬 [[Lingua franca]]
-- 🛄 [[travel-checklist|Travel checklist]]
-### 🛍️ [[Retail]]
-- 🛒 [[shopping-lists|Shopping lists]]
+### 🧑‍🤝‍🧑 [[people-main|People]]
+
+### 🗺️ [[things/places/places-main|Places]]
+
+### 🚙 [[things/cars/cars-main|Cars]]
+
+### 💾 [[software-main|Software]]
+
+### 🩺 [[ideas/health/health-main|Health]]
+
+### 🧳 [[ideas/travel/travel-main|Travel]]
+- 💬 [[ideas/travel/languages-main|Lingua franca]]
+- 🛄 [[travel-checklist-main|Travel checklist]]
+
+### 🛍️ [[ideas/retail/retail-main|Retail]]
+- 🛒 [[shopping-lists-main|Shopping lists]]
 
 ## The arts
 
-### 🎷 [[Music]]
-### 📷 [[Photography]]
-### 🎭 [[Dramatic works]]
-### 📚 [[Written works]]
-- 📰 [[reading-lists|Reading lists]]
+### 🎷 [[ideas/music/music-main|Music]]
+
+### 📷 [[ideas/photography/photography-main|Photography]]
+
+### 🎭 [[ideas/dramatic-works/dramatic-works-main|Dramatic works]]
+
+### 📚 [[ideas/written-works/written-works-main|Written works]]
+- 📰 [[reading-lists-main|Reading lists]]
 
 ---
-> [!info]- 📚 Reference
+
+> [!info]- 🗝️ Reference
 > - [[bases-main|Bases]]
+> - [[emoji|Emoji]]
 > - [[linux-commands|Linux commands]]
 > - [[obsidian|Obsidian]]
 > 	- [[obsidian-callouts|Obsidian callouts]]

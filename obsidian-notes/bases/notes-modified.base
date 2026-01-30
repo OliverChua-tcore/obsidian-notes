@@ -2,6 +2,7 @@ filters:
   and:
     - file.mtime >= this["short-date"]
     - file.mtime < this["short-date"] + duration("1 day")
+    - type != "transaction"
     - "!created.isEmpty()"
 properties:
   file.name:
@@ -24,7 +25,7 @@ views:
       - property: file.mtime
         direction: ASC
     columnSize:
-      file.name: 100
+      file.name: 80
       note.title: 500
       note.created: 200
       file.mtime: 180

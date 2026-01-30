@@ -1,20 +1,30 @@
 ---
-template-version: 3
+type: daily-note
+template-version: 4
 <%*
 
-// Template for daily notes
+// Template for daily notes (filename: "YYYY-MM-DD-dddd", e.g., "2026-01-01-Thursday")
 
 // Use variables to prevent this template from showing up in backlinks and tag searches
-const navigateUp = "-Year";
-const defaultValue = "undefined";
+const navigateUpPath = "calendar/3-monthly-notes";
+const taskTag        = "#task";
+const recurringTag   = "#task #recurring";
 
-const taskTag = "#task";
-const recurringTag = "#task #recurring";
+// Parse from filename "YYYY-MM-DD"
+const fileDate  = moment(tp.file.title, 'YYYY-MM-DD');
+const year      = fileDate.format("YYYY");
+const monthMM   = fileDate.format("MM");                  // e.g., 01
+const monthMMMM = fileDate.format("MMMM");                // e.g., January
+const monthNum  = Number(monthMM);                        // e.g., 1
 
-const fileDate = moment(tp.file.title,'YYYY-MM-DD');
-const year = fileDate.format("YYYY");
+// title
 const shortDate = fileDate.format("YYYY-MM-DD");
-const longDate = fileDate.format("dddd, MMMM D, YYYY");
+const longDate  = fileDate.format("dddd, MMMM D, YYYY");
+
+// navigate-up
+const monthFileName = `${year}-${monthMM}-${monthMMMM}`;
+const monthTitle    = `${monthMMMM} ${year}`;
+const navigateUp    = `${navigateUpPath}/${year}/${monthFileName}|${monthTitle}`;
 -%>
 title: "<% shortDate %> | <% longDate %>"
 aliases:
@@ -24,7 +34,7 @@ created: <% tp.file.creation_date() %>
 tags:
   - daily-notes/<% fileDate.format("YYYY/MM") %>
 navigate-up:
-  - "[[<% year %><% navigateUp %>]]"
+  - "[[<% navigateUp %>]]"
 short-date: "<% shortDate %>"
 ---
 # <% longDate %>
@@ -70,10 +80,10 @@ dv.paragraph(nav[0] + ' ← ' + nav[1] + ' → ' + nav[2]);
 > ![[notes-modified.base]]
 
 ## 🤝 Today's meetings
--
+</br>
 
 ## 💰 Today's financial transactions
-- 
+![[finance-trxns.base#Today's transactions]]
 
 ## 📅 Daily questions
 ##### 🕙 Last night, I...

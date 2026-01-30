@@ -1,6 +1,7 @@
 filters:
   and:
     - file.folder.startsWith("x")
+    - file.name != "_folder"
 properties:
   file.name:
     displayName: File

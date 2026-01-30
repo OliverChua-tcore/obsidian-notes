@@ -9,11 +9,11 @@ navigate-up:
   - "[[tasks-main|Tasks]]"
 TQ_short_mode: true
 ---
-# 🏡 Home tasks
-
+## 🏡 Home tasks
 ```tasks
 filter by function !task.isDone
 tags include home
+tags include my-homes
 preset group_by_scheduled
 
 hide cancelled date
@@ -28,6 +28,7 @@ hide done date
 > ```tasks
 > filter by function task.isDone
 > tags include home
+> tags include my-homes
 > 
 > show cancelled date
 > hide created date

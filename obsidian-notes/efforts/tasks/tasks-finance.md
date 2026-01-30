@@ -9,8 +9,7 @@ navigate-up:
   - "[[tasks-main|Tasks]]"
 TQ_short_mode: true
 ---
-# 💰 Financial tasks
-
+## 💰 Financial tasks
 ```tasks
 filter by function !task.isDone
 tags include finance

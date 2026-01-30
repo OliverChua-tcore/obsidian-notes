@@ -33,7 +33,6 @@
       "key": "T"
     }
   ],
-  "workspace:new-tab": [],
   "workspace:undo-close-pane": [],
   "app:toggle-left-sidebar": [
     {
@@ -75,6 +74,24 @@
         "Mod"
       ],
       "key": "Numpad1"
+    }
+  ],
+  "file-explorer:new-file": [],
+  "workspace:new-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "zk-prefixer": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
     }
   ]
 }
