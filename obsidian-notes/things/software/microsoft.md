@@ -7,7 +7,7 @@ created: 2026-01-21 18:06
 tags:
   - software/dev
 navigate-up:
-  - "[[software|Software]]"
+  - "[[software-main|Software]]"
 software-name: Microsoft
 software-author:
   - Microsoft

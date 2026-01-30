@@ -1,12 +1,14 @@
 ---
-template-version: 1
+type: place
+template-version: 3
 <%*
 
 // Template for keeping track of places
 
 // Use variables to prevent this template from showing up in backlinks and tag searches
-const navigateUp = "undefined";
+const navigateUp   = "things/places/places-main|Places";
 const defaultValue = "undefined";
+
 let title = await tp.system.prompt("Title of file", tp.file.name);
 -%>
 title: "<% title %>"
@@ -20,20 +22,22 @@ navigate-up:
 place-name: "<% title %>"
 place-community: "[[<% defaultValue %>]]"
 place-address:
-place-city:
-place-state:
+place-city: "[[<% defaultValue %>]]"
+place-state: "[[<% defaultValue %>]]"
 place-zip-code:
 place-zip-four:
 country: "[[<% defaultValue %>]]"
+what3words:
 start-date:
 end-date:
+edit-status: new                              # in-progress / complete
 ---
 %%
 	`place-name`: the name of the place
 	`place-community`: the name of the community, if the place is in a large city with distinct neighborhoods
 	`place-address`: the street address of the place
-	`place-city`: the city of the place (don't link to another note; it will be taken care of below)
-	`place-state`: the state or province (if not in the United States) of the place (don't link to another note; it will be taken care of below)
+	`place-city`: the city of the place
+	`place-state`: the state or province (if not in the United States) of the place
 	`place-zip-code`: the five-digit American ZIP code or postal code (if not in the United States) of the place
 	`place-zip-four`: the nine-digit American ZIP+4 code of the place
 	`country`: the country of the place
@@ -51,27 +55,15 @@ end-date:
 > [!info] 🏬 Address
 > - Community: `= this.place-community`
 > - Address: `= this.place-address`
-> - City: `= "[[" + this.place-city + "]]"`
-> - State: `= "[[" + this.place-state + "]]"`
+> - City: `= this.place-city`
+> - State: `= this.place-state`
 > - ZIP code: `= this.place-zip-code`
 > - ZIP+4: `= this.place-zip-four`
 
 > [!quote]- Copy address elements
-> ```
-> = this.place-address
-> ```
-> ```
-> = upper(this.place-address)
-> ```
-> ```
-> = this.place-city
-> ```
-> ```
-> = upper(this.place-city)
-> ```
-> ```
-> = this.place-zip-code
-> ```
-> ```
-> = this.place-zip-four
-> ```
+> `= this.place-address`
+> `= upper(this.place-address)`
+> `= this.place-zip-code`
+> `= this.place-zip-four`
+
+<% await tp.file.include("[[notes-snippet]]") %>

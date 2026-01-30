@@ -5,6 +5,7 @@
   "baseFontSize": 20,
   "theme": "moonstone",
   "enabledCssSnippets": [
-    "S - Checkboxes"
+    "S - Checkboxes",
+    "background-images"
   ]
 }

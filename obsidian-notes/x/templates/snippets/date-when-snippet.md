@@ -1,3 +1,8 @@
+<%*
+
+// Snippet to add how far (past, present, future) `short-date` is from today
+
+-%>
 `= choice(
 	date(today) = date(this.short-date),
 	"**Today**",

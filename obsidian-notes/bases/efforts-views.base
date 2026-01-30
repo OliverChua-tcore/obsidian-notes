@@ -1,6 +1,7 @@
 filters:
   and:
     - file.folder.startsWith("efforts")
+    - file.name != "_folder"
 properties:
   file.name:
     displayName: File
@@ -14,6 +15,12 @@ properties:
     displayName: Tags
   note.created:
     displayName: Created
+  note.type:
+    displayName: Type
+  note.template-version:
+    displayName: Template version
+  note.edit-status:
+    displayName: Edit status
 views:
   - type: table
     name: EFFORTS
@@ -27,15 +34,21 @@ views:
       - file.mtime
       - tags
       - aliases
+      - type
+      - template-version
+      - edit-status
     sort:
       - property: title
         direction: ASC
       - property: file.name
         direction: ASC
     columnSize:
-      file.name: 100
+      file.name: 80
       note.title: 500
+      note.created: 150
       file.mtime: 150
       note.tags: 500
       note.aliases: 500
-      note.created: 120
+      note.type: 100
+      note.template-version: 100
+      note.edit-status: 100

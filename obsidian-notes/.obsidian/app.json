@@ -37,6 +37,7 @@
   ],
   "userIgnoreFilters": [
     "main",
-    "x/undefined"
+    "x/undefined",
+    "/.*\\.base/"
   ]
 }

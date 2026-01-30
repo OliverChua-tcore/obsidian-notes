@@ -1,22 +1,22 @@
 ---
 template-version: 1
-title: GitHub
+title: Git
 aliases:
-  - GitHub
-created: 2026-01-21 17:08
+  - Git
+created: 2026-01-23 17:00
 tags:
-  - software/dev
+  - software/git
 navigate-up:
   - "[[software-main|Software]]"
-  - "[[git|Git]]"
-software-name: GitHub
+software-name: Git
 software-author:
-  - GitHub
+  - Git
 software-license:
-  - https://docs.github.com/en/site-policy/github-terms/github-terms-of-service
+  - https://github.com/git/git?tab=License-1-ov-file#readme
 website:
-  - https://github.com
+  - https://git-scm.com
 repository:
+  - https://github.com/git/git
 ---
 %%
 	`software-name`: the name of the software or service
@@ -25,4 +25,6 @@ repository:
 	`website`: the links to the websites for the software (i.e., homepage, account login, support site, etc.)
 	`repository`: the links where the source code for the software are hosted (e.g., GitHub)
 %%
-# GitHub
+# Git
+
+## 📝 Notes

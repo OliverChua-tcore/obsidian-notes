@@ -1,12 +1,14 @@
 ---
+type: car
 template-version: 2
 <%*
 
-// Template to keep track of the vehicles you've maintained over the years
+// Template for keeping track of the vehicles you've maintained over the years
 
 // Use variables to prevent this template from showing up in backlinks and tag searches
-const navigateUp = "my-cars|Cars we've owned";
+const navigateUp   = "my-cars|Cars we've owned";
 const defaultValue = "undefined";
+
 let title = await tp.system.prompt("Title of file", tp.file.name);
 -%>
 title: "<% title %>"
@@ -32,6 +34,7 @@ car-vin:
 car-manufacturer: "[[<% defaultValue %>]]"
 start-date:
 end-date:
+edit-status: new                              # in-progress / complete
 ---
 %%
 	`short-code`: an abbreviation you use to identify the vehicle (e.g., **C24**)
@@ -51,6 +54,9 @@ end-date:
 %%
 # <% title %>
 Length of ownership or stewardship:: `= choice(!this.end-date, date(today) - this.start-date, this.end-date - this.start-date)`
+
+> [!info]- Current registration
+> ![[car-99-registration.pdf]]
 
 ---
 

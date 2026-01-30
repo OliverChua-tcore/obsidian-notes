@@ -52,8 +52,10 @@ views:
 - 📰 [[reading-lists|Reading lists]]
 
 ---
-> [!info]- 📚 Reference
+
+> [!info]- 🗝️ Reference
 > - [[bases-main|Bases]]
+> - [[emoji|Emoji]]
 > - [[linux-commands|Linux commands]]
 > - [[obsidian|Obsidian]]
 > 	- [[obsidian-callouts|Obsidian callouts]]

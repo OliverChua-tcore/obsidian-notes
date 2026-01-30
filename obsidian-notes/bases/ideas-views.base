@@ -1,6 +1,7 @@
 filters:
   and:
     - file.folder.startsWith("ideas")
+    - file.name != "_folder"
 properties:
   file.name:
     displayName: File
@@ -33,7 +34,7 @@ views:
       - property: file.name
         direction: ASC
     columnSize:
-      file.name: 100
+      file.name: 80
       note.title: 500
       file.mtime: 150
       note.tags: 500

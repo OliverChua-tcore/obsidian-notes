@@ -2,6 +2,7 @@ filters:
   and:
     - note["created"] >= this["short-date"]
     - note["created"] < this["short-date"] + duration("1 day")
+    - type != "transaction"
 properties:
   file.name:
     displayName: File
@@ -23,7 +24,7 @@ views:
       - property: created
         direction: ASC
     columnSize:
-      file.name: 100
+      file.name: 80
       note.title: 500
       note.created: 200
       file.mtime: 180

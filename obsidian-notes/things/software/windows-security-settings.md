@@ -1,21 +1,21 @@
 ---
 template-version: 1
-title: GitHub
+title: Windows security settings
 aliases:
-  - GitHub
-created: 2026-01-21 17:08
+  - Windows security settings
+created: 2022-06-01 02:27
 tags:
-  - software/dev
+  - software/windows
+  - software/security
+  - software/computer-setup
 navigate-up:
   - "[[software-main|Software]]"
-  - "[[git|Git]]"
-software-name: GitHub
+  - "[[Microsoft]]"
+  - "[[Windows]]"
+software-name: "[[Windows]]"
 software-author:
-  - GitHub
 software-license:
-  - https://docs.github.com/en/site-policy/github-terms/github-terms-of-service
 website:
-  - https://github.com
 repository:
 ---
 %%
@@ -25,4 +25,21 @@ repository:
 	`website`: the links to the websites for the software (i.e., homepage, account login, support site, etc.)
 	`repository`: the links where the source code for the software are hosted (e.g., GitHub)
 %%
-# GitHub
+# Windows security settings
+
+## 📝 Notes
+
+### [[BitLocker|BitLocker]] drive encryption status
+```powershell
+manage-bde -status
+```
+
+### [[Microsoft Edge|Microsoft Edge]]
+```
+edge://settings/privacy
+```
+
+### Uninstall the [[Your Phone|Your Phone]] app
+```powershell
+Get-AppxPackage Microsoft.YourPhone -AllUsers | Remove-AppxPackage
+```

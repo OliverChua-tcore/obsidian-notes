@@ -1,12 +1,14 @@
 ---
+type: software
 template-version: 1
 <%*
 
-// Template to keep track of software (including SaaS websites)
+// Template for keeping track of software (including SaaS websites)
 
 // Use variables to prevent this template from showing up in backlinks and tag searches
-const navigateUp = "software|Software";
+const navigateUp   = "software-main|Software";
 const defaultValue = "undefined";
+
 let title = await tp.system.prompt("Title of file", tp.file.name);
 -%>
 title: "<% title %>"
@@ -26,6 +28,7 @@ website:
   - "[[<% defaultValue %>]]"
 repository:
   - "[[<% defaultValue %>]]"
+edit-status: new                              # in-progress / complete
 ---
 %%
 	`software-name`: the name of the software or service
