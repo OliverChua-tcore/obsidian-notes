@@ -1,4 +1,6 @@
 ---
+type: software
+template-version: 1
 title: Linux commands
 aliases:
   - Linux commands
@@ -7,9 +9,23 @@ tags:
   - software/linux
   - software/dev
 navigate-up:
-  - "[[software-main|Software]]"
-  - "[[Linux]]"
+  - "[[main|🔝]]"
+  - "[[things/software/linux|Linux]]"
+software-name: Linux commands
+software-author:
+software-license:
+website:
+repository:
+edit-status: in-progress
 ---
+%%
+	`software-name`: the name of the software or service
+	`software-author`: the creators of the software (i.e., publisher, individual contributors, etc.)
+	`software-license`: the links to the software licenses (i.e., text of FOSS license, copy of purchase receipt, etc.)
+	`website`: the links to the websites for the software (i.e., homepage, account login, support site, etc.)
+	`repository`: the links where the source code for the software are hosted (e.g., GitHub)
+%%
+###### [[main|🔝]]
 # Linux commands
 
 ## Symbolic link (symlink)
@@ -43,6 +59,8 @@ sudo ln -s script-name.sh /usr/local/bin/script-name
 which script-name
 ```
 
+---
+
 ## Other commands
 
 ### Update packages
@@ -68,9 +86,6 @@ source ~/.bashrc
 ```bash
 history
 ```
-```bash
-h
-```
 
 ### Hosts: Edit hosts file
 ```bash
@@ -80,8 +95,13 @@ sudo nano /etc/hosts
 sudo resolvectl flush-caches
 ```
 ```bash
-getent hosts funkydrummer.local
+getent hosts newEntry.local
 ```
 ```bash
-ping -c 1 funkydrummer.local
+ping -c 1 newEntry.local
 ```
+> Replace `newEntry.local` with the name that you just added
+
+---
+
+## 📝 Notes

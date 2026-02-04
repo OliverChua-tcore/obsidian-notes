@@ -103,3 +103,5 @@ const nextText = nextFile ? '[[' + nextFile.name + ']]' : none;
 
 dv.paragraph(prevText + ' ← ' + currText + ' → ' + nextText);
 ```
+
+<% await tp.file.include("[[notes-snippet]]") %>

@@ -3,7 +3,7 @@ title: VS Code
 aliases:
   - VS Code
   - Visual Studio Code
-created: 2026-01-19 01:32
+created: 2026-01-09 23:33
 tags:
   - software/dev/vscode
 navigate-up:

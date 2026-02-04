@@ -1,4 +1,5 @@
 ---
+type: note
 template-version: 1
 title: Software
 aliases:
@@ -8,7 +9,9 @@ tags:
   - software
 navigate-up:
   - "[[main|🔝]]"
+edit-status: complete
 ---
+###### [[main|🔝]]
 # Software
 
 ![[things-views.base#Software]]

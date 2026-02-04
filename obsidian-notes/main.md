@@ -18,7 +18,7 @@ properties:
   file.name:
     displayName: Daily note
 views:
-  - type: table
+  - type: list
     name: Recent daily notes
     filters:
       and:
@@ -46,7 +46,7 @@ views:
 
 ## Categories
 
-### 🧑‍🤝‍🧑 [[people-main|People]]
+### 🧑‍🤝‍🧑 [[things/people/people-main|People]]
 
 ### 🗺️ [[things/places/places-main|Places]]
 
@@ -78,7 +78,7 @@ views:
 
 > [!info]- 🗝️ Reference
 > - [[bases-main|Bases]]
-> - [[emoji|Emoji]]
+> - [[emojis|Emojis]]
 > - [[linux-commands|Linux commands]]
 > - [[obsidian|Obsidian]]
 > 	- [[obsidian-callouts|Obsidian callouts]]

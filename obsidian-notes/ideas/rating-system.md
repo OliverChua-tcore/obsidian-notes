@@ -10,6 +10,7 @@ navigate-up:
 source: https://stephango.com/vault
 source-date: 2026-01-15
 ---
+###### [[main|🔝]]
 # Rating system
 
 - Anything with a `rating` property uses an integer from 1 to 7

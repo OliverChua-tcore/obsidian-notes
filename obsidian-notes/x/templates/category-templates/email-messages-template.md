@@ -12,9 +12,9 @@ const defaultValue = "undefined";
 let title = await tp.system.prompt("Title of file", tp.file.name);
 -%>
 title: "<% title %>"
+created: <% tp.file.creation_date() %>
 aliases:
   - "<% title %>"
-created: <% tp.file.creation_date() %>
 tags:
   - communication/email
 navigate-up:
@@ -22,7 +22,7 @@ navigate-up:
 email-date: <% tp.date.now("YYYY-MM-DD") %>
 email-contacts:
   - "[[<% defaultValue %>]]"
-edit-status: new                              # in-progress / complete
+edit-status: new                              # new | in-progress | complete
 ---
 %%
 	`email-date`: the date the email was sent or received
@@ -34,3 +34,5 @@ _{copy of email}_
 
 > [!cite]- Draft
 > _{store your draft here, if applicable, and you want to preserve it}_
+
+<% await tp.file.include("[[notes-snippet]]") %>

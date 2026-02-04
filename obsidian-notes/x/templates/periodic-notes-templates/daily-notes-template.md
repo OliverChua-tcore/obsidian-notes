@@ -17,9 +17,10 @@ const monthMM   = fileDate.format("MM");                  // e.g., 01
 const monthMMMM = fileDate.format("MMMM");                // e.g., January
 const monthNum  = Number(monthMM);                        // e.g., 1
 
-// title
+// title / filename
 const shortDate = fileDate.format("YYYY-MM-DD");
 const longDate  = fileDate.format("dddd, MMMM D, YYYY");
+const dayFileName = fileDate.format("YYYY-MM-DD-dddd");
 
 // navigate-up
 const monthFileName = `${year}-${monthMM}-${monthMMMM}`;
@@ -73,7 +74,7 @@ dv.paragraph(nav[0] + ' ← ' + nav[1] + ' → ' + nav[2]);
 ```
 
 ## 📜 Notes created or modified today
-> [!cite]- 🆕 Notes created today
+> [!cite] 🆕 Notes created today
 > ![[notes-created.base]]
 
 > [!cite]- ✏️ Notes last touched today

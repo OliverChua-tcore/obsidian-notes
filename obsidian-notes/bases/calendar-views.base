@@ -201,6 +201,8 @@ views:
       - type
       - template-version
     sort:
+      - property: title
+        direction: ASC
       - property: file.name
         direction: DESC
     columnSize:

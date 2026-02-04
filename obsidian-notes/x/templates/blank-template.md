@@ -23,3 +23,5 @@ navigate-up:
 edit-status: new                              # in-progress / complete
 ---
 # <% title %>
+
+<% await tp.file.include("[[notes-snippet]]") %>

@@ -1,4 +1,5 @@
 ---
+type: software
 template-version: 1
 title: Obsidian
 aliases:
@@ -7,7 +8,7 @@ created: 2026-01-06 12:48
 tags:
   - software/obsidian
 navigate-up:
-  - "[[software|Software]]"
+  - "[[software-main|Software]]"
 software-name: Obsidian
 software-author:
   - Obsidian
@@ -24,6 +25,7 @@ website:
   - https://help.obsidian.md
 repository:
   - https://github.com/obsidianmd/obsidian-help
+edit-status: in-progress
 ---
 %%
 	`software-name`: the name of the software or service
@@ -71,7 +73,7 @@ repository:
 - See the [[markdown|cheat sheet]] for _Markdown_ syntax
 - See the [[obsidian-callouts|cheat sheet]] for _callout_ syntax
 - You can swipe from the top and sides on mobile
-- Obsidian CEO's personal [vault template](https://github.com/kepano/kepano-obsidian)
+- Obsidian [[@kapano|CEO]]'s personal [vault template](https://github.com/kepano/kepano-obsidian)
 
 # ⚙️ Obsidian setup
 
@@ -95,7 +97,7 @@ repository:
 - `efforts` — _for storing notes related to **action items**_
 	- `projects`
 	- `tasks`
-		- [[recurring-tasks]]
+		- [[tasks-recurring]]
 		- [[tasks-main]]
 - `ideas` — _for storing notes related to **knowledge items**_
 	- `communication` — _uses [[email-messages-template]]_

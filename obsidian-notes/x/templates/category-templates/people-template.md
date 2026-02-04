@@ -12,15 +12,15 @@ const defaultValue = "undefined";
 let title = await tp.system.prompt("Title of file", tp.file.name);
 -%>
 title: "<% title %>"
+created: <% tp.file.creation_date() %>
 aliases:
   - "<% title %>"
   - "<% title %>"
   - "<% title %>"
-created: <% tp.file.creation_date() %>
 tags:
   - people
 navigate-up:
-  - "[[<% defaultValue %>]]"
+  - "[[<% navigateUp %>]]"
 person-name: <% title %>
 person-prefix:
   - "[[<% defaultValue %>]]"
