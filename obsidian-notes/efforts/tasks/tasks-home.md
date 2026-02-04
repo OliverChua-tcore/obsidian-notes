@@ -1,14 +1,19 @@
 ---
+type: note
+template-version: 1
 title: 🏡 Home tasks
 aliases:
-  - "Home tasks"
+  - Home tasks
+  - 🏡 Home tasks
 created: 2026-01-14 02:35
 tags:
   - tasks
 navigate-up:
-  - "[[tasks-main|Tasks]]"
+  - "[[tasks-main|📋 Tasks]]"
 TQ_short_mode: true
+edit-status: complete
 ---
+###### [[tasks-main|📋 Tasks]]
 ## 🏡 Home tasks
 ```tasks
 filter by function !task.isDone
@@ -24,16 +29,16 @@ hide due date
 hide done date
 ```
 
-> [!done]- Done/canceled tasks
-> ```tasks
-> filter by function task.isDone
-> tags include home
-> tags include my-homes
-> 
-> show cancelled date
-> hide created date
-> hide start date
-> hide scheduled date
-> hide due date
-> show done date
-> ```
+## ✔️ Done/canceled tasks
+```tasks
+filter by function task.isDone
+tags include home
+tags include my-homes
+
+show cancelled date
+hide created date
+hide start date
+hide scheduled date
+hide due date
+show done date
+```

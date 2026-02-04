@@ -1,20 +1,24 @@
 ---
-title: 📋 Tasks
+type: note
+template-version: 1
+title: 🚗 Car tasks
 aliases:
-  - Tasks
-created: 2026-01-11 03:59
+  - Car tasks
+  - 🚗 Car tasks
+created: 2026-01-26 01:19
 tags:
   - tasks
 navigate-up:
-  - "[[main|🔝]]"
+  - "[[tasks-main|📋 Tasks]]"
 TQ_short_mode: true
+edit-status: complete
 ---
-###### [[main|🔝]]
-# 📋 Tasks
-
-## To-do/in-progress tasks
+###### [[tasks-main|📋 Tasks]]
+## 🚗 Car tasks
 ```tasks
 filter by function !task.isDone
+tags include cars
+tags include my-cars
 preset group_by_scheduled
 
 hide cancelled date
@@ -25,9 +29,11 @@ hide due date
 hide done date
 ```
 
-## Done/canceled tasks
+## ✔️ Done/canceled tasks
 ```tasks
 filter by function task.isDone
+tags include cars
+tags include my-cars
 
 show cancelled date
 hide created date

@@ -1,11 +1,11 @@
 ---
 type: note
 template-version: 1
-title: 💰 Financial tasks
+title: 🔽 Low priority tasks
 aliases:
-  - Financial tasks
-  - 💰 Financial tasks
-created: 2026-01-14 02:14
+  - Low priority tasks
+  - 🔽 Low priority tasks
+created: 2026-01-23 03:00
 tags:
   - tasks
 navigate-up:
@@ -14,10 +14,16 @@ TQ_short_mode: true
 edit-status: complete
 ---
 ###### [[tasks-main|📋 Tasks]]
-## 💰 Financial tasks
+## 🔽 Low priority tasks
 ```tasks
 filter by function !task.isDone
-tags include finance
+tags do not include finance
+tags do not include cars
+tags do not include home
+tags do not include my-cars
+tags do not include my-home
+priority is below none
+scheduled before next 7 days
 preset group_by_scheduled
 
 hide cancelled date
@@ -31,7 +37,12 @@ hide done date
 ## ✔️ Done/canceled tasks
 ```tasks
 filter by function task.isDone
-tags include finance
+tags do not include finance
+tags do not include cars
+tags do not include home
+tags do not include my-cars
+tags do not include my-home
+priority is below none
 
 show cancelled date
 hide created date
