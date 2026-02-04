@@ -17,9 +17,10 @@ const monthMM   = fileDate.format("MM");                  // e.g., 01
 const monthMMMM = fileDate.format("MMMM");                // e.g., January
 const monthNum  = Number(monthMM);                        // e.g., 1
 
-// title
+// title / filename
 const shortDate = fileDate.format("YYYY-MM-DD");
 const longDate  = fileDate.format("dddd, MMMM D, YYYY");
+const dayFileName = fileDate.format("YYYY-MM-DD-dddd");
 
 // navigate-up
 const monthFileName = `${year}-${monthMM}-${monthMMMM}`;
@@ -73,7 +74,7 @@ dv.paragraph(nav[0] + ' ← ' + nav[1] + ' → ' + nav[2]);
 ```
 
 ## 📜 Notes created or modified today
-> [!cite]- 🆕 Notes created today
+> [!cite] 🆕 Notes created today
 > ![[notes-created.base]]
 
 > [!cite]- ✏️ Notes last touched today
@@ -83,9 +84,9 @@ dv.paragraph(nav[0] + ' ← ' + nav[1] + ' → ' + nav[2]);
 - [ ] Daily scrum
 
 ## 📋 Tasks created today
-- [ ] <% recurringTag %> Triage notes in [[<% filenameDate %>|<% shortDate %>]] daily note 🔽 ➕ <% shortDate %> 🛫 <% shortDate %> ⏳ <% shortDate %> 📅 <% shortDate %>
-- [ ] <% recurringTag %> Send morning update for [[<% filenameDate %>|<% shortDate %>]] ➕ <% shortDate %> 🛫 <% shortDate %> ⏳ <% shortDate %> 📅 <% shortDate %>
-- [ ] <% recurringTag %> Send evening update for [[<% filenameDate %>|<% shortDate %>]] ➕ <% shortDate %> 🛫 <% shortDate %> ⏳ <% shortDate %> 📅 <% shortDate %>
+- [ ] <% recurringTag %> Triage [[<% dayFileName %>|<% shortDate %>]] daily note 🔽 ➕ <% shortDate %> 🛫 <% shortDate %> ⏳ <% shortDate %> 📅 <% shortDate %>
+- [ ] <% recurringTag %> Send morning update for [[<% dayFileName %>|<% shortDate %>]] ➕ <% shortDate %> 🛫 <% shortDate %> ⏳ <% shortDate %> 📅 <% shortDate %>
+- [ ] <% recurringTag %> Send evening update for [[<% dayFileName %>|<% shortDate %>]] ➕ <% shortDate %> 🛫 <% shortDate %> ⏳ <% shortDate %> 📅 <% shortDate %>
 
 ## 📅 Daily questions
 ##### 🕙 Last night, I...

@@ -1,7 +1,6 @@
 filters:
   and:
-    - file.tags.contains("tickets")
-    - file.tags.contains("projects")
+    - type == "ticket"
 properties:
   file.name:
     displayName: Ticket
@@ -9,37 +8,50 @@ properties:
     displayName: Title
   note.ticket-ilms:
     displayName: ILMS
+  note.ticket-parent:
+    displayName: Parent
+  note.ticket-status:
+    displayName: Status
 views:
   - type: table
     name: Active tickets
     filters:
       and:
-        - file.tags.contains("tickets/active")
+        - note["ticket-status"] == "in-progress"
     groupBy:
-      property: file.tags
+      property: project
       direction: ASC
     order:
       - file.name
-      - ticket-ilms
+      - ticket-parent
+      - ticket-status
       - ticket-title
     sort:
       - property: file.mtime
         direction: DESC
     columnSize:
-      file.name: 150
-      note.ticket-ilms: 150
+      file.name: 120
+      note.ticket-parent: 140
+      note.ticket-status: 120
+      note.ticket-title: 500
   - type: table
     name: Inactive tickets
     filters:
       and:
-        - '!file.tags.contains("tickets/active")'
+        - note["ticket-status"] != "in-progress"
     groupBy:
-      property: file.tags
+      property: project
       direction: ASC
     order:
       - file.name
-      - ticket-ilms
+      - ticket-parent
+      - ticket-status
       - ticket-title
     sort:
       - property: file.mtime
         direction: DESC
+    columnSize:
+      file.name: 120
+      note.ticket-parent: 140
+      note.ticket-status: 120
+      note.ticket-title: 500

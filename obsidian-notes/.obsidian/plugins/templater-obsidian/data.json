@@ -35,19 +35,11 @@
       "template": "x/templates/periodic-notes-templates/yearly-notes-template.md"
     },
     {
-      "folder": "efforts/finance/accounts",
-      "template": "x/templates/category-templates/accounts-template.md"
+      "folder": "efforts/tickets",
+      "template": "x/templates/category-templates/tickets-template.md"
     },
     {
-      "folder": "efforts/finance/transactions",
-      "template": "x/templates/category-templates/transactions-template.md"
-    },
-    {
-      "folder": "things/cars",
-      "template": "x/templates/category-templates/cars-template.md"
-    },
-    {
-      "folder": "things/people",
+      "folder": "local/people",
       "template": "x/templates/category-templates/people-template.md"
     },
     {

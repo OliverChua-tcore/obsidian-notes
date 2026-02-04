@@ -8,6 +8,7 @@ tags:
 navigate-up:
   - "[[main|🔝]]"
 ---
+###### [[main|🔝]]
 # Bases
 
 ## Folder views

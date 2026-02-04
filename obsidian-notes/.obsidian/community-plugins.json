@@ -8,5 +8,7 @@
   "obsidian-sort-and-permute-lines",
   "obsidian-style-settings",
   "obsidian-tasks-plugin",
-  "templater-obsidian"
+  "templater-obsidian",
+  "text-extractor",
+  "omnisearch"
 ]

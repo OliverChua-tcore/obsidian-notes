@@ -12,15 +12,15 @@ const defaultValue = "undefined";
 let title = await tp.system.prompt("Title of file", tp.file.name);
 -%>
 title: "<% title %>"
+created: <% tp.file.creation_date() %>
 aliases:
   - "<% title %>"
   - "<% title %>"
   - "<% title %>"
-created: <% tp.file.creation_date() %>
 tags:
   - people
 navigate-up:
-  - "[[<% defaultValue %>]]"
+  - "[[<% navigateUp %>]]"
 person-name: <% title %>
 person-prefix:
   - "[[<% defaultValue %>]]"
@@ -37,7 +37,9 @@ person-title:
   - "[[<% defaultValue %>]]"
 person-company:
   - "[[<% defaultValue %>]]"
-birth-date:
+person-location: "[[<% defaultValue %>]]"
+time-zone-shift:
+birthday:
 start-date:
 edit-status: new                              # in-progress / complete
 ---
@@ -53,7 +55,9 @@ edit-status: new                              # in-progress / complete
 	`person-address-mailing`: any mailing address tied to the person
 	`person-title`: any professional titles held by the person
 	`person-company`: any companies which the person is connected to
-	`birth-date`: the date the person was born
+	`person-location`: the company location where the person is based
+	`time-zone-shift`: the time zone difference in hours between you and the person
+	`birthday`: the month and day the person was born
 	`start-date`: the date you met the person
 %%
 # <% title %>
@@ -64,7 +68,7 @@ edit-status: new                              # in-progress / complete
 > [!missing]- ☎️ Phone numbers
 > - Phone:: `<% defaultValue %>`
 
-> [!info] 👨‍👩‍👧‍👦 Family
+> [!missing]- 👨‍👩‍👧‍👦 Family
 > - Mother:: `<% defaultValue %>`
 > - Father:: `<% defaultValue %>`
 > - Siblings:: `<% defaultValue %>`

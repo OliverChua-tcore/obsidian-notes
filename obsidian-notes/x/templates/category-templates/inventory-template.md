@@ -56,4 +56,4 @@ _{embed main photo here}_
 > [!info]- Specs & details
 > _{add specs & details here}_
 
-## 📝 Notes
+<% await tp.file.include("[[notes-snippet]]") %>

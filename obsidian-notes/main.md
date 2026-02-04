@@ -18,7 +18,7 @@ properties:
   file.name:
     displayName: Daily note
 views:
-  - type: table
+  - type: list
     name: Recent daily notes
     filters:
       and:
@@ -29,8 +29,10 @@ views:
       - property: file.name
         direction: DESC
     limit: 7
+
 ```
-- 🪹 [[out-of-office|Out-of-office dates]]
+
+> 🪹 [[out-of-office|Out-of-office dates]]
 
 ## 🧑‍💻 [[tickets-main|Tickets]]
 ![[tickets-active-views.base]]
@@ -47,21 +49,19 @@ views:
 
 ## Categories
 
-### 🧑‍🤝‍🧑 [[people-main|People]]
+### 🧑‍🤝‍🧑 [[things/people/people-main|People]]
 
 ### 🗺️ [[things/places/places-main|Places]]
 
 ### 💾 [[software-main|Software]]
 
-</br>
-
-- 📰 [[reading-lists|Reading lists]]
-
 ---
+
+- 📰 [[ideas/misc/reading-lists-main|Reading lists]]
 
 > [!info]- 🗝️ Reference
 > - [[bases-main|Bases]]
-> - [[emoji|Emoji]]
+> - [[emojis|Emojis]]
 > - [[linux-commands|Linux commands]]
 > - [[obsidian|Obsidian]]
 > 	- [[obsidian-callouts|Obsidian callouts]]

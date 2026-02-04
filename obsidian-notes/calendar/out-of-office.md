@@ -34,7 +34,7 @@ LIMIT 10
 TABLE ooo-reason AS "Reason"
 FROM #out-of-office/🤒
 SORT file.name DESC
-LIMIT 10
+LIMIT 25
 ```
 
 ### 🕯️ Bereavement

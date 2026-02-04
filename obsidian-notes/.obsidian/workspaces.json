@@ -273,6 +273,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "zk-prefixer:Create new unique note": false,
           "bases:Create new base": false,
           "switcher:Open quick switcher": true,
           "graph:Open graph view": true,
@@ -286,7 +287,7 @@
         }
       },
       "active": "08c661ede9474819",
-      "mtime": "2026-01-22T03:10:13-08:00"
+      "mtime": "2026-01-30T09:50:43-08:00"
     }
   },
   "active": "My default workspace"
