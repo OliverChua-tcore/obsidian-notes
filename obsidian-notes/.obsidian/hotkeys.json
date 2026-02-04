@@ -94,14 +94,6 @@
       "key": "T"
     }
   ],
-  "workspace:close": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "W"
-    }
-  ],
   "workspaces:load": [
     {
       "modifiers": [
@@ -111,7 +103,6 @@
       "key": "W"
     }
   ],
-  "workspace:close-window": [],
   "editor:toggle-fold-properties": [
     {
       "modifiers": [
@@ -120,6 +111,7 @@
       "key": "F"
     }
   ],
+  "workspace:close-window": [],
   "omnisearch:show-modal": [
     {
       "modifiers": [

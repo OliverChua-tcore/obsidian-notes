@@ -1,0 +1,533 @@
+{
+  "vaultProfiles": [
+    {
+      "id": "default",
+      "name": "Default",
+      "fileVisibility": "all",
+      "hiddenFolders": [],
+      "hiddenTags": [],
+      "hiddenFileNames": [
+        "*_folder"
+      ],
+      "hiddenFileTags": [],
+      "hiddenFileProperties": [],
+      "navigationBanner": null,
+      "periodicNotesFolder": "calendar",
+      "shortcuts": [
+        {
+          "type": "note",
+          "path": "main.md"
+        },
+        {
+          "type": "note",
+          "path": "efforts/tasks/tasks-main.md"
+        },
+        {
+          "type": "note",
+          "path": "efforts/finance/chart-of-accounts.md"
+        }
+      ]
+    }
+  ],
+  "vaultProfile": "default",
+  "vaultTitle": "header",
+  "syncModes": {
+    "vaultProfile": "synced",
+    "folderSortOrder": "synced",
+    "tagSortOrder": "synced",
+    "searchProvider": "synced",
+    "includeDescendantNotes": "synced",
+    "useFloatingToolbars": "synced",
+    "dualPane": "synced",
+    "dualPaneOrientation": "synced",
+    "paneTransitionDuration": "synced",
+    "toolbarVisibility": "synced",
+    "pinNavigationBanner": "synced",
+    "navIndent": "synced",
+    "navItemHeight": "synced",
+    "navItemHeightScaleText": "synced",
+    "calendarPlacement": "synced",
+    "calendarWeeksToShow": "synced",
+    "compactItemHeight": "synced",
+    "compactItemHeightScaleText": "synced",
+    "uiScale": "synced"
+  },
+  "autoRevealActiveFile": true,
+  "autoRevealIgnoreRightSidebar": true,
+  "paneTransitionDuration": 150,
+  "multiSelectModifier": "cmdCtrl",
+  "enterToOpenFiles": false,
+  "shiftEnterOpenContext": "tab",
+  "cmdCtrlEnterOpenContext": "split",
+  "startView": "navigation",
+  "interfaceIcons": {},
+  "homepage": "main.md",
+  "mobileHomepage": null,
+  "useMobileHomepage": false,
+  "dualPane": true,
+  "dualPaneOrientation": "horizontal",
+  "showTooltips": false,
+  "showTooltipPath": true,
+  "desktopBackground": "separate",
+  "desktopScale": 1,
+  "mobileScale": 1,
+  "useFloatingToolbars": true,
+  "dateFormat": "yyyyMM-dd",
+  "timeFormat": "HH:mm",
+  "pinRecentNotesWithShortcuts": false,
+  "collapseBehavior": "all",
+  "smartCollapse": true,
+  "showSectionIcons": true,
+  "showShortcuts": true,
+  "shortcutBadgeDisplay": "index",
+  "skipAutoScroll": false,
+  "showRecentNotes": true,
+  "recentNotesCount": 10,
+  "calendarPlacement": "left-sidebar",
+  "calendarLocale": "system-default",
+  "calendarWeekendDays": "sat-sun",
+  "calendarWeeksToShow": 6,
+  "calendarHighlightToday": true,
+  "calendarShowFeatureImage": true,
+  "calendarShowWeekNumber": true,
+  "calendarShowQuarter": true,
+  "calendarConfirmBeforeCreate": true,
+  "calendarIntegrationMode": "notebook-navigator",
+  "calendarCustomFilePattern": "[1-daily-notes]/YYYY/YYYY-MM-DD-dddd",
+  "calendarCustomWeekPattern": "[2-weekly-notes]/YYYY/YYYY-[Week]-ww",
+  "calendarCustomMonthPattern": "[3-monthly-notes]/YYYY/YYYY-MM-MMMM",
+  "calendarCustomQuarterPattern": "[4-quarterly-notes]/YYYY-[Quarter]-Q",
+  "calendarCustomYearPattern": "[5-yearly-notes]/YYYY-[Year]",
+  "calendarTemplateFolder": "x/templates/periodic-notes-templates",
+  "calendarCustomFileTemplate": "x/templates/periodic-notes-templates/daily-notes-template.md",
+  "calendarCustomWeekTemplate": "x/templates/periodic-notes-templates/weekly-notes-template.md",
+  "calendarCustomMonthTemplate": "x/templates/periodic-notes-templates/monthly-notes-template.md",
+  "calendarCustomQuarterTemplate": "x/templates/periodic-notes-templates/quarterly-notes-template.md",
+  "calendarCustomYearTemplate": "x/templates/periodic-notes-templates/yearly-notes-template.md",
+  "colorIconOnly": true,
+  "toolbarVisibility": {
+    "navigation": {
+      "toggleDualPane": true,
+      "expandCollapse": true,
+      "calendar": true,
+      "hiddenItems": true,
+      "rootReorder": true,
+      "newFolder": true
+    },
+    "list": {
+      "back": true,
+      "search": true,
+      "descendants": true,
+      "sort": true,
+      "appearance": true,
+      "newNote": true
+    }
+  },
+  "pinNavigationBanner": true,
+  "showNoteCount": true,
+  "separateNoteCounts": true,
+  "rootLevelSpacing": 0,
+  "navIndent": 16,
+  "navItemHeight": 28,
+  "navItemHeightScaleText": true,
+  "autoSelectFirstFileOnFocusChange": true,
+  "autoExpandFoldersTags": true,
+  "springLoadedFolders": true,
+  "springLoadedFoldersInitialDelay": 0.5,
+  "springLoadedFoldersSubsequentDelay": 0.5,
+  "showFolderIcons": true,
+  "showRootFolder": true,
+  "inheritFolderColors": true,
+  "folderSortOrder": "alpha-asc",
+  "inheritTagColors": true,
+  "enableFolderNotes": false,
+  "folderNoteType": "markdown",
+  "folderNoteName": "",
+  "folderNoteProperties": "",
+  "openFolderNotesInNewTab": false,
+  "hideFolderNoteInList": true,
+  "pinCreatedFolderNote": false,
+  "showTags": true,
+  "showTagIcons": true,
+  "showAllTagsFolder": true,
+  "showUntagged": true,
+  "tagSortOrder": "alpha-asc",
+  "keepEmptyTagsProperty": true,
+  "defaultListMode": "standard",
+  "includeDescendantNotes": false,
+  "defaultFolderSort": "title-asc",
+  "propertySortKey": "",
+  "revealFileOnListChanges": true,
+  "listPaneTitle": "header",
+  "noteGrouping": "date",
+  "filterPinnedByFolder": false,
+  "showPinnedGroupHeader": true,
+  "showPinnedIcon": true,
+  "optimizeNoteHeight": true,
+  "compactItemHeight": 28,
+  "compactItemHeightScaleText": true,
+  "showQuickActions": true,
+  "quickActionRevealInFolder": false,
+  "quickActionAddTag": true,
+  "quickActionAddToShortcuts": true,
+  "quickActionPinNote": true,
+  "quickActionOpenInNewTab": false,
+  "useFrontmatterMetadata": true,
+  "frontmatterIconField": "file-icon",
+  "frontmatterColorField": "file-color",
+  "frontmatterNameField": "title",
+  "frontmatterCreatedField": "created",
+  "frontmatterModifiedField": "",
+  "frontmatterDateFormat": "yyyy-MM-dd HH:mm",
+  "saveMetadataToFrontmatter": true,
+  "showFileIcons": true,
+  "showFilenameMatchIcons": false,
+  "fileNameIconMap": {},
+  "showCategoryIcons": true,
+  "fileTypeIconMap": {},
+  "fileNameRows": 1,
+  "showFilePreview": true,
+  "skipHeadingsInPreview": true,
+  "skipCodeBlocksInPreview": true,
+  "stripHtmlInPreview": true,
+  "previewRows": 2,
+  "previewProperties": [
+    "description"
+  ],
+  "showFeatureImage": true,
+  "featureImageProperties": [
+    "cover-img"
+  ],
+  "featureImageExcludeProperties": [],
+  "forceSquareFeatureImage": false,
+  "downloadExternalFeatureImages": true,
+  "showFileTags": true,
+  "colorFileTags": true,
+  "prioritizeColoredFileTags": true,
+  "showFileTagAncestors": true,
+  "showFileTagsInCompactMode": false,
+  "customPropertyType": "frontmatter",
+  "customPropertyFields": "type, template-version, edit-status",
+  "showCustomPropertiesOnSeparateRows": false,
+  "customPropertyColorMap": {},
+  "showCustomPropertyInCompactMode": false,
+  "showFileDate": false,
+  "alphabeticalDateMode": "modified",
+  "showParentFolder": true,
+  "parentFolderClickRevealsFile": true,
+  "showParentFolderColor": true,
+  "showParentFolderIcon": true,
+  "externalIconProviders": {
+    "material-icons": true
+  },
+  "searchProvider": "omnisearch",
+  "keyboardShortcuts": {
+    "pane:move-up": [
+      {
+        "key": "ArrowUp",
+        "modifiers": []
+      }
+    ],
+    "pane:move-down": [
+      {
+        "key": "ArrowDown",
+        "modifiers": []
+      }
+    ],
+    "pane:page-up": [
+      {
+        "key": "PageUp",
+        "modifiers": []
+      }
+    ],
+    "pane:page-down": [
+      {
+        "key": "PageDown",
+        "modifiers": []
+      }
+    ],
+    "pane:home": [
+      {
+        "key": "Home",
+        "modifiers": []
+      }
+    ],
+    "pane:end": [
+      {
+        "key": "End",
+        "modifiers": []
+      }
+    ],
+    "navigation:collapse-or-parent": [
+      {
+        "key": "ArrowLeft",
+        "modifiers": []
+      }
+    ],
+    "navigation:expand-or-focus-list": [
+      {
+        "key": "ArrowRight",
+        "modifiers": []
+      }
+    ],
+    "navigation:focus-list": [
+      {
+        "key": "Tab",
+        "modifiers": []
+      }
+    ],
+    "pane:delete-selected": [
+      {
+        "key": "Delete",
+        "modifiers": []
+      },
+      {
+        "key": "Backspace",
+        "modifiers": []
+      }
+    ],
+    "list:focus-navigation": [
+      {
+        "key": "ArrowLeft",
+        "modifiers": []
+      },
+      {
+        "key": "Tab",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "list:focus-editor": [
+      {
+        "key": "ArrowRight",
+        "modifiers": []
+      },
+      {
+        "key": "Tab",
+        "modifiers": []
+      }
+    ],
+    "list:select-all": [
+      {
+        "key": "A",
+        "modifiers": [
+          "Mod"
+        ]
+      }
+    ],
+    "list:extend-selection-up": [
+      {
+        "key": "ArrowUp",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "list:extend-selection-down": [
+      {
+        "key": "ArrowDown",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "list:range-to-start": [
+      {
+        "key": "Home",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "list:range-to-end": [
+      {
+        "key": "End",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "search:focus-list": [
+      {
+        "key": "Tab",
+        "modifiers": []
+      },
+      {
+        "key": "Enter",
+        "modifiers": []
+      }
+    ],
+    "search:focus-navigation": [
+      {
+        "key": "Tab",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "search:close": [
+      {
+        "key": "Escape",
+        "modifiers": []
+      }
+    ]
+  },
+  "checkForUpdatesOnStart": true,
+  "confirmBeforeDelete": true,
+  "customVaultName": "",
+  "pinnedNotes": {
+    "efforts/tasks/tasks-main.md": {
+      "folder": true,
+      "tag": false
+    },
+    "bases/bases-main.md": {
+      "folder": true,
+      "tag": false
+    },
+    "ideas/travel/travel-checklist-main.md": {
+      "folder": true,
+      "tag": false
+    },
+    "efforts/finance/chart-of-accounts.md": {
+      "folder": true,
+      "tag": false
+    },
+    "main.md": {
+      "folder": true,
+      "tag": false
+    },
+    "efforts/finance/accounts/assets-unspecified.md": {
+      "folder": true,
+      "tag": false
+    },
+    "efforts/finance/accounts/expenses-unspecified.md": {
+      "folder": true,
+      "tag": false
+    },
+    "efforts/finance/accounts/income-unspecified.md": {
+      "folder": true,
+      "tag": false
+    },
+    "efforts/finance/accounts/liabilities-unspecified.md": {
+      "folder": true,
+      "tag": false
+    },
+    "things/places/my-homes.md": {
+      "folder": true,
+      "tag": false
+    },
+    "ideas/retail/shopping-lists-main.md": {
+      "folder": true,
+      "tag": false
+    }
+  },
+  "fileIcons": {},
+  "fileColors": {},
+  "folderIcons": {
+    "efforts/tasks": "material-icons:checklist",
+    "bases": "material-icons:dataset",
+    "calendar": "material-icons:calendar_month",
+    "calendar/1-daily-notes": "material-icons:calendar_view_day",
+    "calendar/2-weekly-notes": "material-icons:calendar_view_week",
+    "calendar/3-monthly-notes": "material-icons:calendar_view_month",
+    "calendar/4-quarterly-notes": "material-icons:calendar_month",
+    "calendar/5-yearly-notes": "material-icons:calendar_month",
+    "+": "material-icons:move_to_inbox",
+    "x": "material-icons:storage",
+    "efforts/finance": "material-icons:attach_money",
+    "efforts/finance/accounts": "material-icons:attach_money",
+    "efforts/finance/transactions": "material-icons:attach_money",
+    "efforts/sports": "material-icons:sports_soccer",
+    "efforts/projects": "material-icons:construction",
+    "efforts/education": "material-icons:school",
+    "efforts": "material-icons:rocket_launch",
+    "local": "material-icons:hide_source",
+    "local/software": "material-icons:hide_source",
+    "x/attachments": "material-icons:attach_file",
+    "x/scripts": "material-icons:code",
+    "x/templates/snippets": "material-icons:text_snippet",
+    "x/templates/periodic-notes-templates": "material-icons:text_snippet",
+    "x/templates/examples": "material-icons:text_snippet",
+    "x/templates/category-templates": "material-icons:text_snippet",
+    "x/templates": "material-icons:text_snippet",
+    "things/cars": "material-icons:directions_car",
+    "things/computers": "material-icons:computer",
+    "things/inventory": "material-icons:store",
+    "things/people": "material-icons:person",
+    "things/places": "material-icons:place",
+    "things/software": "material-icons:miscellaneous_services",
+    "ideas": "material-icons:lightbulb",
+    "ideas/communication": "material-icons:chat",
+    "ideas/development": "material-icons:code",
+    "ideas/finance": "material-icons:attach_money",
+    "ideas/finance/insurance": "material-icons:car_crash",
+    "ideas/health": "material-icons:health_and_safety",
+    "ideas/home": "material-icons:home",
+    "ideas/internet-domains": "material-icons:web",
+    "ideas/music": "material-icons:library_music",
+    "ideas/retail": "material-icons:storefront",
+    "ideas/social": "material-icons:people",
+    "ideas/travel": "material-icons:airplanemode_active"
+  },
+  "folderColors": {
+    "/": "#a855f7",
+    "bases": "#dc143c",
+    "calendar": "#ff8c00",
+    "efforts": "#ffd700",
+    "ideas": "#32cd32",
+    "local": "#4169e1",
+    "things": "#9400d3"
+  },
+  "folderBackgroundColors": {
+    "+": "#d9d9d9",
+    "x": "#d9d9d9"
+  },
+  "folderSortOverrides": {
+    "calendar/1-daily-notes/2025": "title-asc"
+  },
+  "folderTreeSortOverrides": {},
+  "folderAppearances": {},
+  "tagIcons": {
+    "task": "material-icons:check_box",
+    "tasks": "material-icons:checklist"
+  },
+  "tagColors": {
+    "task": "#eab308",
+    "tasks": "#eab308"
+  },
+  "tagBackgroundColors": {},
+  "tagSortOverrides": {},
+  "tagTreeSortOverrides": {},
+  "tagAppearances": {},
+  "navigationSeparators": {
+    "section:tags": true,
+    "folder:/": true
+  },
+  "userColors": [
+    "#ffffff",
+    "#d9d9d9",
+    "#a6a6a6",
+    "#737373",
+    "#000000",
+    "#404040",
+    "#404040",
+    "#404040",
+    "#404040",
+    "#404040",
+    "#404040",
+    "#404040",
+    "#404040",
+    "#404040",
+    "#404040",
+    "#404040",
+    "#404040",
+    "#404040",
+    "#404040",
+    "#404040"
+  ],
+  "lastShownVersion": "2.2.3",
+  "lastAnnouncedRelease": "",
+  "rootFolderOrder": [],
+  "rootTagOrder": []
+}

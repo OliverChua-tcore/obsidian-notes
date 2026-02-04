@@ -9,6 +9,8 @@
   "obsidian-style-settings",
   "obsidian-tasks-plugin",
   "templater-obsidian",
+  "maps",
+  "omnisearch",
   "text-extractor",
-  "omnisearch"
+  "notebook-navigator"
 ]

@@ -1,0 +1,16 @@
+/* Default background image settings for Obsidian notes */
+.markdown-preview-view,
+.markdown-source-view {
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* Page-specific background images */
+/*
+.bgimg-example {
+	background-image:
+		linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5)),
+		url("https://path/to/image.png");
+	background-size: 400px;
+}
+*/

@@ -1,0 +1,12 @@
+body {
+	/* Core Obsidian font variables – Blue Topaz builds on these */
+	--font-text-theme: "Noto Sans", "Segoe UI", "Noto Color Emoji", "Segoe UI Emoji", sans-serif;
+	--font-editor-theme: "Noto Sans", "Segoe UI", "Noto Color Emoji", "Segoe UI Emoji", sans-serif;
+}
+
+/* Make sure headings and main text inherit the emoji-capable stack */
+body,
+.markdown-preview-view,
+.markdown-source-view {
+	font-family: var(--font-text-theme);
+}
