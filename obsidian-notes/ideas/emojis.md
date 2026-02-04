@@ -1,4 +1,5 @@
 ---
+type: note
 template-version: 1
 title: Emojis
 aliases:
@@ -8,6 +9,8 @@ tags:
   - reference
 navigate-up:
   - "[[main|🔝]]"
+edit-status: complete
+description: Emojis used in this vault
 ---
 ###### [[main|🔝]]
 # Emojis
@@ -60,11 +63,12 @@ navigate-up:
 ```
 💬 (speech balloon)
 ```
-### 📝 Notes / 📋✔️ tasks
+### 📝 Notes / 📋✔️☑️ tasks
 ```
 📝 (memo)
 📋 (clipboard)
 ✔️ (check mark)
+☑️ (check box with check)
 ```
 ### 🧑‍🤝‍🧑 People / 👨‍👩‍👧‍👦 family / 🧗‍♀️ Oleisa
 ```

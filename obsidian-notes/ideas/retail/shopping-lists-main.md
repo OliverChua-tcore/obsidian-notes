@@ -1,4 +1,6 @@
 ---
+type: note
+template-version: 1
 title: 🛒 Shopping lists
 aliases:
   - Shopping lists
@@ -7,6 +9,8 @@ tags:
   - retail
 navigate-up:
   - "[[main|🔝]]"
+edit-status: complete
+description: Shopping lists MOC
 ---
 # 🛒 Shopping lists
 

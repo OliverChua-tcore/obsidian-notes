@@ -1,0 +1,166 @@
+filters:
+  and:
+    - type == "transaction"
+    - file.folder == "efforts/finance/transactions"
+formulas:
+  Trxn month: note["trxn-date"].format("YYYY-MM")
+  Post month: note["trxn-cleared-date"].format("YYYY-MM")
+properties:
+  file.name:
+    displayName: File
+  note.trxn-date:
+    displayName: Trxn date
+  note.tags:
+    displayName: Tags
+  note.trxn-payee:
+    displayName: Payee
+  note.trxn-narration:
+    displayName: Memo
+  note.trxn-from:
+    displayName: From
+  note.trxn-to:
+    displayName: To
+  note.trxn-amount:
+    displayName: Amount
+  note.trxn-currency:
+    displayName: Currency
+  note.trxn-cleared:
+    displayName: Cleared
+  note.trxn-cleared-date:
+    displayName: Post date
+  note.trxn-memo:
+    displayName: Memo
+  note.edit-status:
+    displayName: Edit status
+  note.template-version:
+    displayName: Template version
+  note.trxn-cleared-statement:
+    displayName: Statement
+views:
+  - type: table
+    name: All transactions
+    groupBy:
+      property: file.tags
+      direction: DESC
+    order:
+      - file.name
+      - trxn-date
+      - trxn-cleared
+      - trxn-cleared-date
+      - trxn-amount
+      - trxn-currency
+      - trxn-from
+      - trxn-to
+      - trxn-payee
+      - trxn-memo
+      - template-version
+      - edit-status
+      - trxn-cleared-statement
+    sort:
+      - property: trxn-cleared
+        direction: ASC
+      - property: trxn-cleared-date
+        direction: DESC
+      - property: trxn-date
+        direction: DESC
+      - property: file.name
+        direction: DESC
+    columnSize:
+      file.name: 80
+      note.trxn-date: 150
+      note.trxn-cleared: 120
+      note.trxn-cleared-date: 150
+      note.trxn-amount: 100
+      note.trxn-currency: 120
+      note.trxn-from: 300
+      note.trxn-to: 450
+      note.trxn-payee: 300
+      note.trxn-memo: 300
+      note.template-version: 150
+      note.edit-status: 100
+      note.trxn-cleared-statement: 250
+  - type: table
+    name: Today's transactions
+    filters:
+      and:
+        - note["short-date"] == this["short-date"]
+        - type == "transaction"
+    groupBy:
+      property: file.tags
+      direction: DESC
+    order:
+      - file.name
+      - trxn-date
+      - trxn-cleared
+      - trxn-cleared-date
+      - trxn-amount
+      - trxn-currency
+      - trxn-from
+      - trxn-to
+      - trxn-payee
+      - trxn-memo
+    sort:
+      - property: trxn-cleared
+        direction: ASC
+      - property: trxn-cleared-date
+        direction: DESC
+      - property: trxn-date
+        direction: DESC
+      - property: file.name
+        direction: DESC
+    columnSize:
+      file.name: 80
+      note.trxn-date: 150
+      note.trxn-cleared: 120
+      note.trxn-cleared-date: 150
+      note.trxn-payee: 300
+      note.trxn-memo: 300
+      note.trxn-from: 300
+      note.trxn-to: 300
+      note.trxn-amount: 100
+      note.trxn-currency: 120
+      note.tags: 500
+  - type: table
+    name: Account transactions
+    filters:
+      or:
+        - note["trxn-from"] == this["account-name"]
+        - note["trxn-to"] == this["account-name"]
+    groupBy:
+      property: formula.Trxn month
+      direction: DESC
+    order:
+      - file.name
+      - trxn-date
+      - trxn-cleared
+      - trxn-cleared-date
+      - trxn-amount
+      - trxn-currency
+      - trxn-from
+      - trxn-to
+      - trxn-payee
+      - trxn-memo
+      - formula.Trxn month
+      - formula.Post month
+    sort:
+      - property: trxn-cleared
+        direction: ASC
+      - property: trxn-cleared-date
+        direction: DESC
+      - property: trxn-date
+        direction: DESC
+      - property: file.name
+        direction: DESC
+    columnSize:
+      file.name: 80
+      note.trxn-date: 150
+      note.trxn-cleared: 120
+      note.trxn-cleared-date: 150
+      note.trxn-amount: 100
+      note.trxn-currency: 120
+      note.trxn-from: 300
+      note.trxn-to: 300
+      note.trxn-payee: 300
+      note.trxn-memo: 300
+      formula.Trxn month: 120
+      formula.Post month: 120

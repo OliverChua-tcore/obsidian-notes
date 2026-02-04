@@ -1,4 +1,6 @@
 ---
+type: note
+template-version: 1
 title: Rating system
 aliases:
   - Rating system
@@ -9,6 +11,8 @@ navigate-up:
   - "[[main|🔝]]"
 source: https://stephango.com/vault
 source-date: 2026-01-15
+edit-status: complete
+description: Description of rating system used for the rating property
 ---
 ###### [[main|🔝]]
 # Rating system

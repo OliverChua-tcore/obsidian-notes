@@ -19,8 +19,8 @@ edit-status: complete
 filter by function !task.isDone
 tags do not include finance
 tags do not include cars
-tags do not include my-cars
 tags do not include home
+tags do not include my-cars
 tags do not include my-homes
 tags do not include oleisa
 priority is above low
@@ -39,8 +39,8 @@ hide done date
 filter by function task.isDone
 tags do not include finance
 tags do not include cars
-tags do not include my-cars
 tags do not include home
+tags do not include my-cars
 tags do not include my-homes
 tags do not include oleisa
 priority is above low

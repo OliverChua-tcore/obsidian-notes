@@ -1,4 +1,6 @@
 ---
+type: note
+template-version: 1
 title: Bases
 aliases:
   - Bases
@@ -7,6 +9,8 @@ tags:
   - bases
 navigate-up:
   - "[[main|🔝]]"
+edit-status: complete
+description: Bases MOC
 ---
 ###### [[main|🔝]]
 # Bases

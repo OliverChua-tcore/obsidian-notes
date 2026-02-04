@@ -23,6 +23,16 @@ properties:
     displayName: Created
   note.navigate-up:
     displayName: Parents or Company
+  note.type:
+    displayName: Type
+  note.template-version:
+    displayName: Template version
+  note.edit-status:
+    displayName: Edit status
+  note.car-name:
+    displayName: Car
+  note.short-code:
+    displayName: Short code
 views:
   - type: table
     name: THINGS
@@ -36,6 +46,9 @@ views:
       - file.mtime
       - tags
       - aliases
+      - type
+      - template-version
+      - edit-status
     sort:
       - property: title
         direction: ASC
@@ -44,35 +57,27 @@ views:
     columnSize:
       file.name: 80
       note.title: 500
+      note.created: 120
       file.mtime: 180
       note.tags: 500
       note.aliases: 500
-      note.created: 120
-  - type: table
-    name: Software
+      note.type: 100
+      note.template-version: 140
+      note.edit-status: 100
+  - type: cards
+    name: Cars we've owned
     filters:
       and:
-        - file.tags.contains("software")
-        - file.name != "software"
-    groupBy:
-      property: navigate-up
-      direction: ASC
+        - type == "car"
     order:
-      - file.name
-      - title
-      - software-author
-      - file.tags
-      - aliases
+      - car-name
+      - short-code
     sort:
-      - property: title
-        direction: ASC
-      - property: file.name
-        direction: ASC
-    columnSize:
-      file.name: 80
-      note.title: 500
-      note.software-author: 250
-      file.tags: 500
+      - property: short-code
+        direction: DESC
+    image: note.cover-img
+    imageFit: contain
+    cardSize: 350
   - type: table
     name: People
     filters:
@@ -88,6 +93,9 @@ views:
       - title
       - aliases
       - file.tags
+      - type
+      - template-version
+      - edit-status
     sort:
       - property: navigate-up
         direction: ASC
@@ -95,7 +103,38 @@ views:
         direction: ASC
     columnSize:
       file.name: 80
-      note.title: 250
       note.navigate-up: 350
+      note.title: 250
       note.aliases: 500
+      file.tags: 500
+      note.type: 100
+      note.template-version: 140
+      note.edit-status: 100
+  - type: table
+    name: Software
+    filters:
+      and:
+        - file.tags.contains("software")
+        - file.name != "software"
+    groupBy:
+      property: navigate-up
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - software-author
+      - file.tags
+      - aliases
+      - type
+      - template-version
+      - edit-status
+    sort:
+      - property: title
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 80
+      note.title: 500
+      note.software-author: 250
       file.tags: 500
