@@ -2,19 +2,16 @@
 type: car
 template-version: 2
 <%*
-
-// Template for keeping track of the vehicles you've maintained over the years
-
 // Use variables to prevent this template from showing up in backlinks and tag searches
-const navigateUp   = "my-cars|Cars we've owned";
+const navigateUp   = "my-cars|🚗 Cars we've owned";
 const defaultValue = "undefined";
 
-let title = await tp.system.prompt("Title of file", tp.file.name);
+let title = await tp.system.prompt("Full name of vehicle", tp.file.name);
 -%>
 title: "<% title %>"
+created: <% tp.file.creation_date() %>
 aliases:
   - "<% title %>"
-created: <% tp.file.creation_date() %>
 tags:
   - cars/my-cars
 navigate-up:
@@ -34,8 +31,15 @@ car-vin:
 car-manufacturer: "[[<% defaultValue %>]]"
 start-date:
 end-date:
-edit-status: new                              # in-progress / complete
+cover-img:
+cssclasses:
+edit-status: new    # new | in-progress | complete
 ---
+<%*
+
+// Template for keeping track of the vehicles you've maintained over the years
+
+-%>
 %%
 	`short-code`: an abbreviation you use to identify the vehicle (e.g., **C24**)
 	`car-name`: the full name to uniquely identify the vehicle (e.g., **2024 Mazda MX-5 Miata RF Club RWD 6MT**)
@@ -52,15 +56,29 @@ edit-status: new                              # in-progress / complete
 	`start-date`: the date you acquired the vehicle (bought, leased, etc.)
 	`end-date`: the date you no longer had the vehicle (sold, returned, totaled, etc.)
 %%
+###### [[<% navigateUp %>]]
 # <% title %>
 Length of ownership or stewardship:: `= choice(!this.end-date, date(today) - this.start-date, this.end-date - this.start-date)`
 
-> [!info]- Current registration
+%% _add previous ← & → next vehicles_ %%
+
+> [!info]- Current registration — Expires
 > ![[car-99-registration.pdf]]
 
 ---
 
 ## 🛣️ Mileage summary
+
+|       | Date          | Odometer       |
+| ----- | ------------- | -------------- |
+| Start |               |                |
+| End   |               |                |
+|       |               |                |
+|       | **Days**      | **Miles**      |
+|       |               |                |
+|       |               |                |
+|       | **Miles/Day** | **Miles/Year** |
+|       |               |                |
 
 > [!note]- Mileage log
 > | Date | Odometer | Days | Miles | Miles/Day | Miles/Year |
@@ -71,12 +89,30 @@ Length of ownership or stewardship:: `= choice(!this.end-date, date(today) - thi
 
 ## 🔧 Service
 
+|                   |     |
+| ----------------- | --- |
+| Bolt/Stud         |     |
+| Bolt/Stud Pattern |     |
+| Torque lb-ft (Nm) |     |
+| Socket mm         |     |
+| Wheel Lock        |     |
+| Tire Brand        |     |
+| Tire Model        |     |
+| Tire Size         |     |
+| Recommended psi   |     |
+| Tire Chains       |     |
+| Tire 1            |     |
+| Tire 2            |     |
+| Tire 3            |     |
+| Tire 4            |     |
+| Spare             |     |
+
 > [!todo] Service log
 
 ---
 
-## 📋 Tasks
--
+<% await tp.file.include("[[tasks-snippet]]") %>
+</br>
 
 ---
 

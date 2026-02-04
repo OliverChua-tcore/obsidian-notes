@@ -2,19 +2,16 @@
 type: home
 template-version: 2
 <%*
-
-// Template for keeping track of where you've lived
-
 // Use variables to prevent this template from showing up in backlinks and tag searches
 const navigateUp   = "my-homes|My homes & addresses";
 const defaultValue = "undefined";
 
-let title = await tp.system.prompt("Title of file", tp.file.name);
+let title = await tp.system.prompt("Nickname of home", tp.file.name);
 -%>
 title: "<% title %>"
+created: <% tp.file.creation_date() %>
 aliases:
   - "<% title %>"
-created: <% tp.file.creation_date() %>
 tags:
   - places/my-homes
 navigate-up:
@@ -31,8 +28,13 @@ country: "[[<% defaultValue %>]]"
 what3words:
 start-date:
 end-date:
-edit-status: new                              # in-progress / complete
+edit-status: new    # new | in-progress | complete
 ---
+<%*
+
+// Template for keeping track of where you've lived
+
+-%>
 %%
 	`short-code`: an abbreviation you use to identify the home
 	`place-name`: your nickname for the home

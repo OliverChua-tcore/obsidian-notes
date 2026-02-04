@@ -2,14 +2,10 @@
 type: person
 template-version: 1
 <%*
-
-// Template for keeping track of people
-
 // Use variables to prevent this template from showing up in backlinks and tag searches
-const navigateUp   = "people-main|People";
 const defaultValue = "undefined";
 
-let title = await tp.system.prompt("Title of file", tp.file.name);
+let title = await tp.system.prompt("Full name of person", tp.file.name);
 -%>
 title: "<% title %>"
 created: <% tp.file.creation_date() %>
@@ -20,7 +16,7 @@ aliases:
 tags:
   - people
 navigate-up:
-  - "[[<% navigateUp %>]]"
+  - "[[<% defaultValue %>]]"
 person-name: <% title %>
 person-prefix:
   - "[[<% defaultValue %>]]"
@@ -39,8 +35,13 @@ person-company:
   - "[[<% defaultValue %>]]"
 birth-date:
 start-date:
-edit-status: new                              # in-progress / complete
+edit-status: new    # new | in-progress | complete
 ---
+<%*
+
+// Template for keeping track of people
+
+-%>
 %%
 	`navigate-up`: the parents (whether biological or not) of the person
 	`person-name`: the full name of the person

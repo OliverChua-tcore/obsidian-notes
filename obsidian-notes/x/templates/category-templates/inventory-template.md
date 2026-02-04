@@ -2,19 +2,16 @@
 type: inventory
 template-version: 2
 <%*
-
-// Template for keeping track of physical items
-
 // Use variables to prevent this template from showing up in backlinks and tag searches
 const navigateUp   = "inventory|Inventory";
 const defaultValue = "undefined";
 
-let title = await tp.system.prompt("Title of file", tp.file.name);
+let title = await tp.system.prompt("Full name of item", tp.file.name);
 -%>
 title: "<% title %>"
+created: <% tp.file.creation_date() %>
 aliases:
   - "<% title %>"
-created: <% tp.file.creation_date() %>
 tags:
   - inventory
 navigate-up:
@@ -28,8 +25,13 @@ item-serial:
 item-location: "[[<% defaultValue %>]]"
 start-date:
 end-date:
-edit-status: new                              # in-progress / complete
+edit-status: new    # new | in-progress | complete
 ---
+<%*
+
+// Template for keeping track of physical items
+
+-%>
 %%
 	`item-name`: the full name to uniquely identify the item
 	`item-manufacturer`: the manufacturer of the item

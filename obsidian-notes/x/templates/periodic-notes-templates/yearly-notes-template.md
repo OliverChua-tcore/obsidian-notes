@@ -1,10 +1,7 @@
 ---
 type: yearly-note
-template-version: 3
+template-version: 3.1
 <%*
-
-// Template for yearly notes (filename: "YYYY-[Year]", e.g. "2026-Year")
-
 // Use variables to prevent this template from showing up in backlinks and tag searches
 const navigateUp = "main|🔝";
 
@@ -16,14 +13,24 @@ const year     = fileDate.format("YYYY");
 const yearTitle = `Year ${year}`;
 -%>
 title: <% yearTitle %>
+created: <% tp.file.creation_date() %>
 aliases:
   - "<% yearTitle %>"
-created: <% tp.file.creation_date() %>
 tags:
   - review/yearly
 navigate-up:
   - "[[<% navigateUp %>]]"
+description: Yearly note    # 3.1
 ---
+<%*
+
+// Template for yearly notes (filename: "YYYY-[Year]", e.g. "2026-Year")
+
+-%>
+<%*
+// 3.1
+-%>
+###### [[<% navigateUp %>]]
 # <% yearTitle %> review
 ```dataviewjs
 const now = new Date();
