@@ -1,26 +1,24 @@
 ---
 type: software
 template-version: 1
-title: Git
+title: Fold Properties By Default
 aliases:
-  - Git
-  - Git for Obsidian
-created: 2026-01-16 18:43
+  - Fold Properties By Default
+  - Fold Properties By Default for Obsidian
+created: 2026-01-30 15:58
 tags:
   - software/obsidian
 navigate-up:
   - "[[software-main|Software]]"
   - "[[obsidian|Obsidian]]"
-software-name: Git
+software-name: Fold Properties By Default
 software-author:
-  - "[[Vinzent]]"
-  - "[[Denis Olehov]]"
+  - "[[Tommy Bergeron]]"
 software-license:
-  - https://github.com/Vinzent03/obsidian-git#MIT-1-ov-file
+  - https://github.com/tbergeron/obsidian-fold-properties-by-default#MIT-1-ov-file
 website:
-  - https://publish.obsidian.md/git-doc/Start+here
 repository:
-  - https://github.com/Vinzent03/obsidian-git
+  - https://github.com/tbergeron/obsidian-fold-properties-by-default
 edit-status: complete
 ---
 %%
@@ -30,6 +28,6 @@ edit-status: complete
 	`website`: the links to the websites for the software (i.e., homepage, account login, support site, etc.)
 	`repository`: the links where the source code for the software are hosted (e.g., GitHub)
 %%
-# Git
+# Fold Properties By Default
 
 ## 📝 Notes

@@ -1,4 +1,5 @@
 ---
+type: software
 template-version: 1
 title: Dataview
 aliases:
@@ -8,7 +9,7 @@ created: 2026-01-08 16:41
 tags:
   - software/obsidian
 navigate-up:
-  - "[[software|Software]]"
+  - "[[software-main|Software]]"
   - "[[obsidian|Obsidian]]"
 software-name: Dataview
 software-author:
@@ -20,6 +21,7 @@ website:
 repository:
   - https://github.com/blacksmithgu/obsidian-dataview
 date: 2000-02-28
+edit-status: in-progress
 ---
 %%
 	`software-name`: the name of the software or service
@@ -42,6 +44,20 @@ date: 2000-02-28
 | `date(soy)` / `date(eoy)`            | Start/end of current year                 | `= date(soy)` / `= date(eoy)`            |
 | `date(2021-11-11)`                   | Explicit ISO date example                 | `= date(2021-11-11)`                     |
 | `date(2021-09-20T20:17)`             | Explicit ISO time and date example        | `= date(2021-09-20T20:17)`               |
+
+## Date format function
+- `dateformat(date|datetime, string)`
+
+Format a Dataview date using a formatting string. Uses [Luxon tokens](https://moment.github.io/luxon/#/formatting?id=table-of-tokens).
+
+```
+dateformat(file.ctime,"yyyy-MM-dd") = "2022-01-05"
+dateformat(file.ctime,"HH:mm:ss") = "12:18:04"
+dateformat(date(now),"x") = "1407287224054"
+dateformat(file.mtime,"ffff") = "Wednesday, August 6, 2014, 1:07 PM Eastern Daylight Time"
+```
+
+> [!note] Note: `dateformat()` returns a string, not a date, so you can't compare it against the result from a call to `date()` or a variable like `file.day` which already is a date. To make those comparisons you can format both arguments.
 
 ## Implicit fields
 
@@ -79,3 +95,5 @@ date: 2000-02-28
 
 - [ ] _Example_ task 1
 - [x] _Example_ task 2
+
+## 📝 Notes

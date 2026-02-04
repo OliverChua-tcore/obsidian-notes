@@ -46,23 +46,26 @@ edit-status: in-progress
 ### Select Obsidian hotkeys
 | Command              | Hotkey                  |
 | -------------------- | ----------------------- |
+| New tab              | `Ctrl + N`[^notdefault] |
 | Toggle left sidebar  | `Ctrl + L`[^notdefault] |
 | Toggle right sidebar | `Ctrl + R`[^notdefault] |
 
 ### Select ***==core==*** plugin hotkeys
-| Plugin          | Command              | Hotkey                          |
-| --------------- | -------------------- | ------------------------------- |
-| Command palette | Open command palette | `Ctrl - P`                      |
-| Graph view      | Open graph view      | `Ctrl - G`                      |
-| Graph view      | Open local graph     | `Ctrl - Shift - G`[^notdefault] |
-| Quick switcher  | Open quick switcher  | `Ctrl - O`                      |
+| Plugin              | Command                | Hotkey                          |
+| ------------------- | ---------------------- | ------------------------------- |
+| Command palette     | Open command palette   | `Ctrl + P`                      |
+| Graph view          | Open graph view        | `Ctrl + G`                      |
+| Graph view          | Open local graph       | `Ctrl + Shift + G`[^notdefault] |
+| Quick switcher      | Open quick switcher    | `Ctrl + O`                      |
+| Unique note creator | Create new unique note | `Ctrl + Shift + T`[^notdefault] |
+| Workspaces          | Load workspace layout  | `Ctrl + Shift + W`[^notdefault] |
 
 ### Select ***==community==*** plugin hotkeys
 | Plugin         | Command                    | Hotkey                        |
 | -------------- | -------------------------- | ----------------------------- |
-| Periodic Notes | Open daily note            | `Ctrl - D`[^notdefault]       |
-| Tasks          | Create or edit task        | `Ctrl - T`[^notdefault]       |
-| Templater      | Open insert template modal | `Alt - E`                     |
+| Periodic Notes | Open daily note            | `Ctrl + D`[^notdefault]       |
+| Tasks          | Create or edit task        | `Ctrl + T`[^notdefault]       |
+| Templater      | Open insert template modal | `Alt + E`                     |
 | Templater      | Create a-snippet           | `Ctrl + Numpad1`[^notdefault] |
 | Templater      | Insert a-snippet           | `Alt + Numpad1`[^notdefault]  |
 
@@ -97,7 +100,7 @@ edit-status: in-progress
 - `efforts` — _for storing notes related to **action items**_
 	- `projects`
 	- `tasks`
-		- [[tasks-recurring]]
+		- [[recurring-tasks]]
 		- [[tasks-main]]
 - `ideas` — _for storing notes related to **knowledge items**_
 	- `communication` — _uses [[email-messages-template]]_
@@ -110,31 +113,41 @@ edit-status: in-progress
 	- `places` — _uses [[places-template]], [[homes-template]]_
 - `x` — _for storing the items that you normally don't need to access directly_
 	- `attachments` — _for storing **anything that's not a note**_
-	- `templates` — _for storing **templates**_
-		- [[blank-template]][^template]
+	- `templates` — _for storing **templates**_[^template]
+		- [[a-snippet]]
+		- [[blank-template]]
 		- `category-templates` — _for storing templates used for various note categories_
-			- [[cars-template]][^template]
-			- [[email-messages-template]][^template]
-			- [[homes-template]][^template]
-			- [[people-template]][^template]
-			- [[places-template]][^template]
-			- [[trips-template]][^template]
+			- [[accounts-template]]
+			- [[cars-template]]
+			- [[email-messages-template]]
+			- [[homes-template]]
+			- [[inventory-template]]
+			- [[people-template]]
+			- [[places-template]]
+			- [[software-template]]
+			- [[transactions-template]]
+			- [[trips-template]]
+		- `examples` — _for storing example snippets_
+			- [[document-embed-example]]
+			- [[image-remote-example]]
 		- `periodic-notes-templates` — _for storing templates used by the [[obsidian-periodic-notes|Periodic Notes]] plugin_
-			- [[daily-notes-template]][^template]
-			- [[weekly-notes-template]][^template]
-			- [[monthly-notes-template]][^template]
-			- [[quarterly-notes-template]][^template]
-			- [[yearly-notes-template]][^template]
+			- [[daily-notes-template]]
+			- [[weekly-notes-template]]
+			- [[monthly-notes-template]]
+			- [[quarterly-notes-template]]
+			- [[yearly-notes-template]]
 		- `snippets` — _for storing template snippets_
-			- [[frontmatter-snippet]][^template]
-				- [[frontmatter-title-snippet]][^template]
-				- [[frontmatter-aliases-snippet]][^template]
-				- [[frontmatter-created-snippet]][^template]
-				- [[frontmatter-tags-snippet]][^template]
-				- [[frontmatter-navigate-up-snippet]][^template]
-			- [[a-snippet]][^template]
+			- [[date-when-snippet]]
+			- [[frontmatter-snippet]]
+				- [[frontmatter-title-snippet]]
+				- [[frontmatter-aliases-snippet]]
+				- [[frontmatter-created-snippet]]
+				- [[frontmatter-tags-snippet]]
+				- [[frontmatter-navigate-up-snippet]]
+			- [[notes-snippet]]
+			- [[tasks-snippet]]
 
-[^template]: See template file for description
+[^template]: See template files for descriptions
 
 ## Options
 > [!attention] Only the _changes_ to the default settings are outlined below
@@ -173,15 +186,18 @@ edit-status: in-progress
 
 ### Hotkeys
 
-| Command                         | Hotkey             |
-| ------------------------------- | ------------------ |
-| Toggle left sidebar             | `Ctrl + L`         |
-| Toggle right sidebar            | `Ctrl + R`         |
-| Graph view: Open local graph    | `Ctrl - Shift - G` |
-| Periodic Notes: Open daily note | `Ctrl - D`         |
-| Tasks: Create or edit task      | `Ctrl - T`         |
-| Templater: Create a-snippet     | `Ctrl + Numpad1`   |
-| Templater: Insert a-snippet     | `Alt + Numpad1`    |
+| Command                                     | Hotkey             |
+| ------------------------------------------- | ------------------ |
+| New tab                                     | `Ctrl + N`         |
+| Toggle left sidebar                         | `Ctrl + L`         |
+| Toggle right sidebar                        | `Ctrl + R`         |
+| Graph view: Open local graph                | `Ctrl + Shift + G` |
+| Periodic Notes: Open daily note             | `Ctrl + D`         |
+| Tasks: Create or edit task                  | `Ctrl + T`         |
+| Templater: Create a-snippet                 | `Ctrl + Numpad1`   |
+| Templater: Insert a-snippet                 | `Alt + Numpad1`    |
+| Unique note creator: Create new unique note | `Ctrl + Shift + T` |
+| Workspaces: Load workspace layout           | `Ctrl + Shift + W` |
 
 ### Keychain
 - No changes to default settings
@@ -213,7 +229,7 @@ edit-status: in-progress
 - [-] Sync[^disable] — _unless using **Obsidian Sync**_
 - [A] Tags view
 - [A] Templates
-- [ ] Unique note creator
+- [+] Unique note creator[^enable]
 - [+] Web viewer[^enable]
 - [A] Word count
 - [+] Workspaces[^enable]
@@ -226,18 +242,19 @@ edit-status: in-progress
 - Turn on community plugins
 - Automatically check for plugin updates `ON`
 
-| Plugin name                                   | Plugin author                           |
-| --------------------------------------------- | --------------------------------------- |
-| [[obsidian-advanced-tables\|Advanced Tables]] | [[@tgrosinger]]                         |
-| [[obsidian-calendar\|Calendar]]               | [[@liam]]                               |
-| [[obsidian-dataview\|Dataview]]               | [[Michael Brenan]]                      |
-| [[obsidian-git\|Git]]                         | [[Vinzent]]                             |
-| [[obsidian-hider\|Hider]]                     | [[@kepano]]                             |
-| [[obsidian-periodic-notes\|Periodic Notes]]   | [[@liam]]                               |
-| [[obsidian-sort\|Sort & Permute lines]]       | [[Vinzent]]                             |
-| [[obsidian-style-settings\|Style Settings]]   | [[@mgmeyers]]                           |
-| [[obsidian-tasks\|Tasks]]                     | [[Clare Macrae]] and [[Ilyas Landikov]] |
-| [[obsidian-templater\|Templater]]             | [[SilentVoid]]                          |
+| Plugin name                                              | Plugin author                           |
+| -------------------------------------------------------- | --------------------------------------- |
+| [[obsidian-advanced-tables\|Advanced Tables]]            | [[@tgrosinger]]                         |
+| [[obsidian-calendar\|Calendar]]                          | [[@liam]]                               |
+| [[obsidian-dataview\|Dataview]]                          | [[Michael Brenan]]                      |
+| [[obsidian-git\|Git]]                                    | [[Vinzent]]                             |
+| [[obsidian-hider\|Hider]]                                | [[@kepano]]                             |
+| [[obsidian-periodic-notes\|Periodic Notes]]              | [[@liam]]                               |
+| [[obsidian-sort\|Sort & Permute lines]]                  | [[Vinzent]]                             |
+| [[obsidian-style-settings\|Style Settings]]              | [[@mgmeyers]]                           |
+| [[obsidian-tasks\|Tasks]]                                | [[Clare Macrae]] and [[Ilyas Landikov]] |
+| [[obsidian-templater\|Templater]]                        | [[SilentVoid]]                          |
+| [[obsidian-fold-properties\|Fold Properties By Default]] | [[Tommy Bergeron]]                      |
 
 ## Core plugins
 
@@ -276,6 +293,10 @@ edit-status: in-progress
 
 ### Templates
 - Template folder location `x/templates`
+
+### Unique note creator
+- New file location `efforts/finance/transactions`
+- Unique prefix format `YYYY-MM-DD-HHmmss`
 
 ### Web viewer
 - Saved page folder `+`
@@ -394,18 +415,24 @@ edit-status: in-progress
 - Trigger Templater on new file creation `ON`
 - Folder templates:
 
-| Folder                       | Template                     |
-| ---------------------------- | ---------------------------- |
-| `calendar/1-daily-notes`     | [[daily-notes-template]]     |
-| `calendar/2-weekly-notes`    | [[weekly-notes-template]]    |
-| `calendar/3-monthly-notes`   | [[monthly-notes-template]]   |
-| `calendar/4-quarterly-notes` | [[quarterly-notes-template]] |
-| `calendar/5-yearly-notes`    | [[yearly-notes-template]]    |
-| `things/cars`                | [[cars-template]]            |
-| `things/people`              | [[people-template]]          |
-| `things/places`              | [[places-template]]          |
-| `things/software`            | [[software-template]]        |
-| `/`                          | [[blank-template]]           |
+| Folder                         | Template                     |
+| ------------------------------ | ---------------------------- |
+| `calendar/1-daily-notes`       | [[daily-notes-template]]     |
+| `calendar/2-weekly-notes`      | [[weekly-notes-template]]    |
+| `calendar/3-monthly-notes`     | [[monthly-notes-template]]   |
+| `calendar/4-quarterly-notes`   | [[quarterly-notes-template]] |
+| `calendar/5-yearly-notes`      | [[yearly-notes-template]]    |
+| `efforts/finance/accounts`     | [[accounts-template]]        |
+| `efforts/finance/transactions` | [[transactions-template]]    |
+| `things/cars`                  | [[cars-template]]            |
+| `things/people`                | [[people-template]]          |
+| `things/places`                | [[places-template]]          |
+| `things/software`              | [[software-template]]        |
+| `/`                            | [[blank-template]]           |
 
 - Template hotkeys
 	- `x/templates/a-snippet.md`
+- User script functions
+	- Script files folder location `x/scripts`
+
+## 📝 Notes

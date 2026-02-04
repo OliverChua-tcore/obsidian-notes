@@ -6,6 +6,9 @@ aliases:
 created: 2025-12-03 16:06
 tags:
   - software/obsidian
+navigate-up:
+  - "[[software-main|Software]]"
+  - "[[obsidian|Obsidian]]"
 source: https://www.markdownguide.org/cheat-sheet
 ---
 # Markdown cheat sheet

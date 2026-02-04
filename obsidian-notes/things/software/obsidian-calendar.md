@@ -1,4 +1,5 @@
 ---
+type: software
 template-version: 1
 title: Calendar
 aliases:
@@ -8,7 +9,7 @@ created: 2026-01-16 18:41
 tags:
   - software/obsidian
 navigate-up:
-  - "[[software|Software]]"
+  - "[[software-main|Software]]"
   - "[[obsidian|Obsidian]]"
 software-name: Calendar
 software-author:
@@ -18,6 +19,7 @@ software-license:
 website:
 repository:
   - https://github.com/liamcain/obsidian-calendar-plugin
+edit-status: complete
 ---
 %%
 	`software-name`: the name of the software or service
@@ -27,3 +29,5 @@ repository:
 	`repository`: the links where the source code for the software are hosted (e.g., GitHub)
 %%
 # Calendar
+
+## 📝 Notes

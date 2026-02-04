@@ -9,6 +9,7 @@ tags:
 navigate-up:
   - "[[software-main|Software]]"
   - "[[Microsoft]]"
+  - "[[Windows]]"
 ---
 # PowerShell
 

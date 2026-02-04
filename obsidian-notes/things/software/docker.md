@@ -5,6 +5,8 @@ aliases:
 created: 2026-01-12 20:50
 tags:
   - software/dev
+navigate-up:
+  - "[[software-main|Software]]"
 ---
 # Docker
 

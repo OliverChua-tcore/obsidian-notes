@@ -8,6 +8,7 @@ tags:
 navigate-up:
   - "[[main|🔝]]"
 ---
+###### [[main|🔝]]
 # 📦 Inventory
 
 👇 _See dropdown for **inactive** inventory_
