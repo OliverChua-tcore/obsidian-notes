@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Explicit for Markdown only
+*.md text eol=lf
+*.markdown text eol=lf
