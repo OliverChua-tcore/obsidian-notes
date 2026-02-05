@@ -1,13 +1,18 @@
 ---
+type: note
 template-version: 1
 title: Software license comparison
+created: 2026-01-19 02:33
 aliases:
   - Software license comparison
-created: 2026-01-19 02:33
 tags:
+  - development
   - software
 navigate-up:
+  - "[[Software Development]]"
   - "[[software-main|Software]]"
+edit-status: complete
+description: Comparison of the three major open source software licenses
 ---
 # Software license comparison
 
@@ -46,3 +51,7 @@ The MIT License and Apache 2.0 are **permissive** licenses allowing proprietary 
 For a commercial‑friendly library that you are fine with being bundled into closed‑source apps, MIT or Apache 2.0 are usually preferred, with Apache 2.0 favored when patent protection matters; if the goal is to ensure improvements stay open, GPLv3 is more appropriate.[^exygy]
 
 [^exygy]: https://www.exygy.com/blog/which-license-should-i-use-mit-vs-apache-vs-gpl
+
+---
+
+## 📝 Notes

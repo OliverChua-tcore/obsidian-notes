@@ -114,4 +114,6 @@ edit-status: complete
 > `> [!quote]`
 > `> [!cite]`
 
+---
+
 ## 📝 Notes

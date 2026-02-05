@@ -14,4 +14,6 @@ edit-status: complete
 ---
 # Obsidian bases
 
+</br>
+
 ## 📝 Notes

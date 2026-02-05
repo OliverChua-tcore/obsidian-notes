@@ -45,3 +45,5 @@ navigate-up:
 ```html
 › &rsaquo;
 ```
+
+## 📝 Notes

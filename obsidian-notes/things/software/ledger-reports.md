@@ -215,3 +215,5 @@ ledger reg Liabilities:CreditCard:Amex -p "last month"
 ```bash
 ledger bal Income -p "this year"
 ```
+
+## 📝 Notes

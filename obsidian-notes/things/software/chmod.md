@@ -42,3 +42,7 @@ navigate-up:
 
 > [!info]- Source image
 > ![[chmod.png|400]]
+
+---
+
+## 📝 Notes

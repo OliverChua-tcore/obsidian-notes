@@ -186,3 +186,5 @@ _If no command line is provided, wsl.exe launches the default shell._
 - ==Terminates the specified distribution.==
 ### `--unregister <Distro>`
 - Unregisters the distribution and deletes the root filesystem.
+
+## 📝 Notes

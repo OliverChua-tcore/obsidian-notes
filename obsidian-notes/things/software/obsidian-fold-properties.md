@@ -30,4 +30,6 @@ edit-status: complete
 %%
 # Fold Properties By Default
 
+</br>
+
 ## 📝 Notes

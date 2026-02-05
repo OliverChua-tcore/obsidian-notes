@@ -208,3 +208,5 @@ description: Names and values for standard web colors
 | <span style="color: white; background-color: SlateGray">Lorem ipsum</span>      | SlateGray      | 708090   | 112, 128, 144 | 210, 13, 50 |
 | <span style="color: white; background-color: DarkSlateGray">Lorem ipsum</span>  | DarkSlateGray  | 2F4F4F   | 47, 79, 79    | 180, 25, 25 |
 | <span style="color: white; background-color: Black">Lorem ipsum</span>          | Black          | 000000   | 0, 0, 0       | 0, 0, 0     |
+
+## 📝 Notes

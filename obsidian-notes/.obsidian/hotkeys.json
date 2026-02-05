@@ -25,7 +25,14 @@
       "key": "T"
     }
   ],
-  "workspace:undo-close-pane": [],
+  "workspace:undo-close-pane": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
+  ],
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
@@ -50,22 +57,6 @@
         "Shift"
       ],
       "key": "T"
-    }
-  ],
-  "templater-obsidian:x/templates/a-snippet.md": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Numpad1"
-    }
-  ],
-  "templater-obsidian:create-x/templates/a-snippet.md": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Numpad1"
     }
   ],
   "file-explorer:new-file": [],

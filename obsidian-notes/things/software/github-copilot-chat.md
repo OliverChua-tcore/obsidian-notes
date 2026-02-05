@@ -10,3 +10,5 @@ tags:
 [[GitHub|GitHub]] [[Copilot|Copilot]] Chat for [[vscode|VS Code]]
 
 [Get started with GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/getting-started)
+
+## 📝 Notes

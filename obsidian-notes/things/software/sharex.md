@@ -35,3 +35,5 @@ repository:
 | `Alt + Print Screen`          | Capture active window             |
 | `Shift + Print Screen`        | Start/stop screen recording       |
 | `Ctrl + Shift + Print Screen` | Start/stop screen recording (GIF) |
+
+## 📝 Notes

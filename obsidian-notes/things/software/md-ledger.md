@@ -58,4 +58,6 @@ trxn-cleared-date: 2026-01-27
 
 > Export from Obsidian into [[ledger-cli|Ledger]] format: [[md-ledger-trxns-ledger-exporter|Obsidian Transactions Ledger Exporter]]
 
+---
+
 ## 📝 Notes

@@ -265,3 +265,5 @@ If at some point you make a large cash expense that you want to track, just _mov
 ```
 
 This way, you can still track large cash expenses, while ignoring all of the smaller ones.
+
+## 📝 Notes

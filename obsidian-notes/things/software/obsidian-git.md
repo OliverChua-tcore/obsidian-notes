@@ -1,7 +1,7 @@
 ---
 type: software
 template-version: 1
-title: Git
+title: Git for Obsidian
 aliases:
   - Git
   - Git for Obsidian
@@ -31,5 +31,7 @@ edit-status: complete
 	`repository`: the links where the source code for the software are hosted (e.g., GitHub)
 %%
 # Git
+
+</br>
 
 ## 📝 Notes

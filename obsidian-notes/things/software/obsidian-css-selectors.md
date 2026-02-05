@@ -95,3 +95,7 @@ Obsidian uses CSS classes from [[CodeMirror]] (`.cm-`), its workspace layout, an
 > Use `.markdown-preview-view` and `.cm-content` together for "everywhere in notes." Inspect with `Ctrl + Shift + C` to find exact classes for your theme/plugins.[^workflow]
 
 [^workflow]: https://forum.obsidian.md/t/obsidian-css-inspector-workflow/58178
+
+---
+
+## 📝 Notes

@@ -43,3 +43,5 @@ edge://settings/privacy
 ```powershell
 Get-AppxPackage Microsoft.YourPhone -AllUsers | Remove-AppxPackage
 ```
+
+## 📝 Notes

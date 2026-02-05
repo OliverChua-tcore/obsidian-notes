@@ -41,3 +41,5 @@ Get-ExecutionPolicy -List
 ```powershell
 winget install --id Microsoft.PowerShell --source winget
 ```
+
+## 📝 Notes

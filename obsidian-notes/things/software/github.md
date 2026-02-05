@@ -26,3 +26,7 @@ repository:
 	`repository`: the links where the source code for the software are hosted (e.g., GitHub)
 %%
 # GitHub
+
+</br>
+
+## 📝 Notes

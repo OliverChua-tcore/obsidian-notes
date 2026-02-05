@@ -30,4 +30,6 @@ edit-status: complete
 %%
 # Advanced Tables
 
+</br>
+
 ## 📝 Notes

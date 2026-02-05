@@ -30,4 +30,6 @@ edit-status: complete
 %%
 # Style Settings
 
+</br>
+
 ## 📝 Notes

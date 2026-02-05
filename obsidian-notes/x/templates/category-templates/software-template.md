@@ -34,4 +34,6 @@ edit-status: new                # new | in-progress | complete
 -%>
 # <% title %>
 
+</br>
+
 <% await tp.file.include("[[notes-snippet]]") %>

@@ -66,3 +66,5 @@ conda env list
 ```bash
 conda update -n base -c defaults conda
 ```
+
+## 📝 Notes

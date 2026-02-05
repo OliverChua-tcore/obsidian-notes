@@ -26,3 +26,5 @@ source-date: 2026-01-19
 | `Ctrl + I` (hold)  | Start inline voice chat                                          |
 | `Tab`              | Accept inline suggestion or navigate to the next edit suggestion |
 | `Escape`           | Dismiss inline suggestion                                        |
+
+## 📝 Notes
