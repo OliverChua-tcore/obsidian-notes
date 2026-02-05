@@ -1,6 +1,6 @@
 ---
 type: monthly-note
-template-version: 1
+template-version: 1.1
 <%*
 
 // Template for monthly notes (filename: "YYYY-MM-MMMM", e.g., "2026-01-January")
@@ -25,14 +25,24 @@ const quarterTitle    = `Quarter ${quarter}, ${year}`;
 const navigateUp    = `${navigateUpPath}/${quarterFileName}|${quarterTitle}`;
 -%>
 title: "<% monthTitle %>"
+created: <% tp.file.creation_date() %>
 aliases:
   - "<% monthTitle %>"
-created: <% tp.file.creation_date() %>
 tags:
   - review/monthly
 navigate-up:
   - "[[<% navigateUp %>]]"
+description: Monthly note    # 1.1
 ---
+<%*
+
+// Template for monthly notes (filename: "YYYY-MM-MMMM", e.g., "2026-01-January")
+
+-%>
+<%*
+// 1.1
+-%>
+###### [[<% navigateUp %>]]
 # <% monthTitle %> review
 ```dataviewjs
 // Current filename expected: "YYYY-MM-MMMM" (e.g., "2026-01-January")

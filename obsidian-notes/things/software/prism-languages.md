@@ -315,3 +315,5 @@ For use in [[markdown#Syntax highlighting|Markdown syntax highlighting]].
 | YAML                              | `yaml`, `yml`                                                   |
 | YANG                              | `yang`                                                          |
 | Zig                               | `zig`                                                           |
+
+## 📝 Notes

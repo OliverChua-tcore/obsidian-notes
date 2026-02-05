@@ -1,10 +1,7 @@
 ---
 type: daily-note
-template-version: 4
+template-version: 6
 <%*
-
-// Template for daily notes (filename: "YYYY-MM-DD-dddd", e.g., "2026-01-01-Thursday")
-
 // Use variables to prevent this template from showing up in backlinks and tag searches
 const navigateUpPath = "calendar/3-monthly-notes";
 const taskTag        = "#task";
@@ -16,6 +13,7 @@ const year      = fileDate.format("YYYY");
 const monthMM   = fileDate.format("MM");                  // e.g., 01
 const monthMMMM = fileDate.format("MMMM");                // e.g., January
 const monthNum  = Number(monthMM);                        // e.g., 1
+const dayName   = fileDate.format("dddd");                // e.g., Wednesday
 
 // title / filename
 const shortDate = fileDate.format("YYYY-MM-DD");
@@ -28,16 +26,25 @@ const monthTitle    = `${monthMMMM} ${year}`;
 const navigateUp    = `${navigateUpPath}/${year}/${monthFileName}|${monthTitle}`;
 -%>
 title: "<% shortDate %> | <% longDate %>"
+created: <% tp.file.creation_date() %>
 aliases:
   - "<% shortDate %>"
   - "<% longDate %>"
-created: <% tp.file.creation_date() %>
 tags:
   - daily-notes/<% fileDate.format("YYYY/MM") %>
 navigate-up:
   - "[[<% navigateUp %>]]"
 short-date: "<% shortDate %>"
+cssclasses:
+  - daily-note
+  - day-<% dayName %>
+description: Daily note
 ---
+<%*
+
+// Template for daily notes (filename: "YYYY-MM-DD-dddd", e.g., "2026-01-01-Thursday")
+
+-%>
 # <% longDate %>
 <% await tp.file.include("[[date-when-snippet]]") %>
 <%*
@@ -70,15 +77,8 @@ nav.push(prevFile ? '[[' + prevFile[0] + ']]' : none);
 nav.push(currFile[0]);
 nav.push(nextFile ? '[[' + nextFile[0] + ']]' : none);
 
-dv.paragraph(nav[0] + ' ← ' + nav[1] + ' → ' + nav[2]);
+dv.el("div", nav[0] + ' ← ' + nav[1] + ' → ' + nav[2], { attr: { style: "position: relative; z-index: 2;" } });
 ```
-
-## 📜 Notes created or modified today
-> [!cite] 🆕 Notes created today
-> ![[notes-created.base]]
-
-> [!cite]- ✏️ Notes last touched today
-> ![[notes-modified.base]]
 
 ## 🤝 Today's meetings
 - [ ] Daily scrum
@@ -87,6 +87,13 @@ dv.paragraph(nav[0] + ' ← ' + nav[1] + ' → ' + nav[2]);
 - [ ] <% recurringTag %> Triage [[<% dayFileName %>|<% shortDate %>]] daily note 🔽 ➕ <% shortDate %> 🛫 <% shortDate %> ⏳ <% shortDate %> 📅 <% shortDate %>
 - [ ] <% recurringTag %> Send morning update for [[<% dayFileName %>|<% shortDate %>]] ➕ <% shortDate %> 🛫 <% shortDate %> ⏳ <% shortDate %> 📅 <% shortDate %>
 - [ ] <% recurringTag %> Send evening update for [[<% dayFileName %>|<% shortDate %>]] ➕ <% shortDate %> 🛫 <% shortDate %> ⏳ <% shortDate %> 📅 <% shortDate %>
+
+## 📜 Notes created or modified today
+> [!cite] 🆕 Notes created today
+> ![[notes-created.base]]
+
+> [!cite]- ✏️ Notes last touched today
+> ![[notes-modified.base]]
 
 ## 📅 Daily questions
 ##### 🕙 Last night, I...

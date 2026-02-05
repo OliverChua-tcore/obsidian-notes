@@ -16,3 +16,7 @@ website: https://code.visualstudio.com/docs
 - [Getting started with Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
 
 ### [[github-copilot-vscode|GitHub Copilot in VS Code]]
+
+</br>
+
+## 📝 Notes

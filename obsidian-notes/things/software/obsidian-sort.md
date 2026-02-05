@@ -1,4 +1,5 @@
 ---
+type: software
 template-version: 1
 title: Sort & Permute lines
 aliases:
@@ -8,7 +9,7 @@ created: 2026-01-16 18:51
 tags:
   - software/obsidian
 navigate-up:
-  - "[[software|Software]]"
+  - "[[software-main|Software]]"
   - "[[obsidian|Obsidian]]"
 software-name: Sort & Permute lines
 software-author:
@@ -17,6 +18,7 @@ software-license:
 website:
 repository:
   - https://github.com/Vinzent03/obsidian-sort-and-permute-lines
+edit-status: complete
 ---
 %%
 	`software-name`: the name of the software or service
@@ -26,3 +28,7 @@ repository:
 	`repository`: the links where the source code for the software are hosted (e.g., GitHub)
 %%
 # Sort & Permute lines
+
+</br>
+
+## 📝 Notes

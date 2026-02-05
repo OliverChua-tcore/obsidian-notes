@@ -9,6 +9,7 @@ tags:
 navigate-up:
   - "[[software-main|Software]]"
   - "[[Microsoft]]"
+  - "[[Windows]]"
 ---
 # Windows performance settings
 
@@ -24,3 +25,8 @@ Set-ItemProperty -Path 'HKCU:\Software\Classes\Local Settings\Software\Microsoft
 2. Navigate to `Computer Configuration` → `Administrative Templates` → `Windows Components` → `Windows Update` → `Legacy Policies`​
 3. Enable `No auto‑restart with logged on users for scheduled automatic updates installations`​
 4. Close the editor and run `gpupdate /force` or reboot
+
+## 📋 Tasks
+</br>
+
+## 📝 Notes

@@ -120,4 +120,6 @@ winget install --id Microsoft.WindowsTerminal -e
 > }
 > ```
 
+</br>
+
 ## 📝 Notes

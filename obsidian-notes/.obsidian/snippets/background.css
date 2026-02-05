@@ -1,0 +1,51 @@
+/* Display a fixed stripe down the left edge of the page */
+.daily-note::before {
+	font-size: 48px;
+	position: fixed;
+	top: 30px;
+	padding-top: 20px;
+	left: 0;
+	width: 70px;
+	height: 100vh;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	z-index: 0;
+}
+
+/* Different colors and labels for weekdays */
+.day-Monday::before { content: "Monday"; background: beige; }
+.day-Tuesday::before { content: "Tuesday"; background: beige; }
+.day-Wednesday::before { content: "Wednesday"; background: beige; }
+.day-Thursday::before { content: "Thursday"; background: beige; }
+.day-Friday::before { content: "Friday"; background: beige; }
+
+/* Different colors and labels for weekend days */
+.day-Saturday::before { content: "Saturday"; background: plum; }
+.day-Sunday::before { content: "Sunday"; background: plum; }
+
+/* Different colors and labels for holidays */
+.day-holiday-american::before { content: "American holiday"; background: lightgreen; }
+.day-holiday-religious::before { content: "Religious holiday"; background: lightgreen; }
+
+.day-red-letter::before { content: "Red letter day"; background: lightcoral; }
+
+/* Ensure content appears above the stripe */
+.markdown-preview-section {
+	position: relative;
+	z-index: 2 !important;
+}
+
+/* Make meeting entries stand out in daily notes */
+.markdown-preview-view.daily-note blockquote {
+	background-color: pink;
+	border-left-color: red;
+}
+
+/* Highlight the active line in the editor */
+.cm-active {
+	background-color: lightgreen;
+}

@@ -1,14 +1,17 @@
 ---
 title: chmod cheat sheet
+created: 2025-12-30 11:53
 aliases:
   - chmod
   - chmod cheat sheet
 tags:
   - software/linux
   - software/security
+navigate-up:
+  - "[[software-main|Software]]"
+  - "[[Linux]]"
 ---
 # chmod cheat sheet
-[[Linux|Linux]]
 
 ## `drwxrwxrwx`
 
@@ -39,3 +42,7 @@ tags:
 
 > [!info]- Source image
 > ![[chmod.png|400]]
+
+---
+
+## 📝 Notes

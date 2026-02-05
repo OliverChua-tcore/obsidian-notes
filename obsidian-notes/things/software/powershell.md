@@ -9,6 +9,7 @@ tags:
 navigate-up:
   - "[[software-main|Software]]"
   - "[[Microsoft]]"
+  - "[[Windows]]"
 ---
 # PowerShell
 
@@ -40,3 +41,5 @@ Get-ExecutionPolicy -List
 ```powershell
 winget install --id Microsoft.PowerShell --source winget
 ```
+
+## 📝 Notes

@@ -1,13 +1,17 @@
 ---
+type: note
+template-version: 1
 title: Name prefixes & suffixes
+created: 2026-01-16 17:36
 aliases:
   - Name prefixes & suffixes
-created: 2026-01-16 17:36
 tags:
   - social
   - tips
 navigate-up:
   - "[[Social]]"
+edit-status: complete
+description: Tips on the use of name prefixes and suffixes
 ---
 # Name prefixes
 

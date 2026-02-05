@@ -1,13 +1,19 @@
 ---
-title: "Obsidian bases"
+type: note
+template-version: 1
+title: Obsidian bases
 aliases:
-  - "Obsidian bases"
+  - Obsidian bases
 created: 2026-01-14 15:43
 tags:
   - software/obsidian
 navigate-up:
-  - "[[software|Software]]"
+  - "[[software-main|Software]]"
   - "[[obsidian|Obsidian]]"
+edit-status: complete
 ---
 # Obsidian bases
 
+</br>
+
+## 📝 Notes

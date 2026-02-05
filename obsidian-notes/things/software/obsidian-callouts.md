@@ -1,4 +1,5 @@
 ---
+type: software
 template-version: 1
 title: Obsidian callouts cheat sheet
 aliases:
@@ -8,13 +9,14 @@ created: 2026-01-13 02:29
 tags:
   - software/obsidian
 navigate-up:
-  - "[[software|Software]]"
+  - "[[software-main|Software]]"
   - "[[obsidian|Obsidian]]"
 software-name: "[[obsidian|Obsidian]]"
 software-author:
 software-license:
 website: https://help.obsidian.md/callouts
 repository:
+edit-status: complete
 ---
 %%
 	`software-name`: the name of the software or service
@@ -111,3 +113,7 @@ repository:
 > [!quote]-
 > `> [!quote]`
 > `> [!cite]`
+
+---
+
+## 📝 Notes

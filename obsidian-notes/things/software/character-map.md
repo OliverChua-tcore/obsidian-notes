@@ -5,9 +5,12 @@ aliases:
 created: 2026-01-08 18:07
 tags:
   - software/windows
+navigate-up:
+  - "[[software-main|Software]]"
+  - "[[Microsoft]]"
+  - "[[Windows]]"
 ---
 # Windows character map
-[[Microsoft|Microsoft]]
 
 ### `ñ` `Ñ`
 - For lowercase `ñ`: `Alt + 164` or `Alt + 0241`
@@ -15,25 +18,32 @@ tags:
 - For uppercase `Ñ`: `Alt + 165` or `Alt + 0209`
 	- In Microsoft Word/Office: `Ctrl + Shift + ~`, release, `N`
 
-### `|` (vertical bar)
+### `—` (em dash)
+```html
+— &#151;
 ```
-&#124;
+
+### `|` (vertical bar)
+```html
+| &#124;
 ```
 
 ### `«` `»` (guillemets)
 #### U+00AB `«` Left-pointing double angle quotation mark
-```
+```html
 « &laquo;
 ```
 #### U+00BB `»` Right-pointing double angle quotation mark
-```
+```html
 » &raquo;
 ```
 #### U+2039 `‹` Single left-pointing angle quotation mark
-```
+```html
 ‹ &lsaquo;
 ```
 #### U+203A `›` Single right-pointing angle quotation mark
-```
+```html
 › &rsaquo;
 ```
+
+## 📝 Notes

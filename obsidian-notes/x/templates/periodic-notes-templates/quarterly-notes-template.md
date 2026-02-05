@@ -1,10 +1,7 @@
 ---
 type: quarterly-note
-template-version: 2
+template-version: 2.1
 <%*
-
-// Template for quarterly notes (filename: "YYYY-[Quarter]-Q", e.g., "2026-Quarter-1")
-
 // Use variables to prevent this template from showing up in backlinks and tag searches
 const navigateUpPath = "calendar/5-yearly-notes";
 
@@ -22,14 +19,24 @@ const yearTitle    = `${year}`;
 const navigateUp    = `${navigateUpPath}/${yearFileName}|${yearTitle}`;
 -%>
 title: "<% quarterTitle %>"
+created: <% tp.file.creation_date() %>
 aliases:
   - "<% quarterTitle %>"
-created: <% tp.file.creation_date() %>
 tags:
   - review/quarterly
 navigate-up:
   - "[[<% navigateUp %>]]"
+description: Quarterly note    # 2.1
 ---
+<%*
+
+// Template for quarterly notes (filename: "YYYY-[Quarter]-Q", e.g., "2026-Quarter-1")
+
+-%>
+<%*
+// 2.1
+-%>
+###### [[<% navigateUp %>]]
 # <% quarterTitle %> review
 ```dataviewjs
 const now = new Date();

@@ -1,11 +1,10 @@
 ---
 title: 🔝 Homepage
+created: 2026-01-15 23:34
 aliases:
   - 🔝
   - Homepage
-created: 2026-01-15 23:34
-tags:
-  - start-here
+description: Start here
 ---
 # Personal Knowledge Management (PKM) notes
 
@@ -29,7 +28,17 @@ views:
       - property: file.name
         direction: DESC
     limit: 7
-
+  - type: list
+    name: Today ± 30 days
+    filters:
+      and:
+        - note["short-date"] <= today() + duration("30 days")
+        - note["short-date"] >= today() - duration("30 days")
+    order:
+      - file.name
+    sort:
+      - property: file.name
+        direction: DESC
 ```
 
 > 🪹 [[out-of-office|Out-of-office dates]]

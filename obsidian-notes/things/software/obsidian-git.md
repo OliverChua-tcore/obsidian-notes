@@ -1,6 +1,7 @@
 ---
+type: software
 template-version: 1
-title: Git
+title: Git for Obsidian
 aliases:
   - Git
   - Git for Obsidian
@@ -8,7 +9,7 @@ created: 2026-01-16 18:43
 tags:
   - software/obsidian
 navigate-up:
-  - "[[software|Software]]"
+  - "[[software-main|Software]]"
   - "[[obsidian|Obsidian]]"
 software-name: Git
 software-author:
@@ -20,6 +21,7 @@ website:
   - https://publish.obsidian.md/git-doc/Start+here
 repository:
   - https://github.com/Vinzent03/obsidian-git
+edit-status: complete
 ---
 %%
 	`software-name`: the name of the software or service
@@ -29,3 +31,7 @@ repository:
 	`repository`: the links where the source code for the software are hosted (e.g., GitHub)
 %%
 # Git
+
+</br>
+
+## 📝 Notes

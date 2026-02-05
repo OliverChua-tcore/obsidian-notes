@@ -5,6 +5,8 @@ aliases:
 created: 2026-01-12 20:50
 tags:
   - software/dev
+navigate-up:
+  - "[[software-main|Software]]"
 ---
 # Docker
 
@@ -134,3 +136,5 @@ docker run --rm `
 | `-v "$(pwd)":/backup`          | mount current host directory into container as `/backup`                |
 | `busybox`                      | minimal image used to run `tar`                                         |
 | `sh -c "..."`                  | the command executed inside the container, which does the actual backup |
+
+## 📝 Notes

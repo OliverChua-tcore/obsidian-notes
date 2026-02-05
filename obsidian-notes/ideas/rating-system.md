@@ -1,16 +1,20 @@
 ---
+type: note
+template-version: 1
 title: Rating system
+created: 2026-01-15 16:56
 aliases:
   - Rating system
-created: 2026-01-15 16:56
 tags:
   - reference
 navigate-up:
   - "[[main|🔝]]"
 source: https://stephango.com/vault
 source-date: 2026-01-15
+edit-status: complete
+description: Description of rating system used for the rating property
 ---
-[[main|🔝]]
+###### [[main|🔝]]
 # Rating system
 
 - Anything with a `rating` property uses an integer from 1 to 7

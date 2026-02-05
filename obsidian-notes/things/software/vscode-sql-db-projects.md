@@ -11,3 +11,5 @@ navigate-up:
 # SQL Database Projects
 
 [SQL Database Projects](https://learn.microsoft.com/en-us/sql/tools/sql-database-projects/sql-database-projects?view=sql-server-ver17)
+
+## 📝 Notes

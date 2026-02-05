@@ -11,3 +11,5 @@ navigate-up:
 # SQL Server (mssql)
 
 [MSSQL extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
+
+## 📝 Notes

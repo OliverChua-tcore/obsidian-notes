@@ -6,6 +6,13 @@
   "theme": "moonstone",
   "enabledCssSnippets": [
     "S - Checkboxes",
-    "background-images"
-  ]
+    "background-images",
+    "noto-emoji",
+    "background",
+    "emoji",
+    "fonts"
+  ],
+  "interfaceFontFamily": "Lucida Sans Unicode",
+  "textFontFamily": "Noto Sans",
+  "monospaceFontFamily": "Cascadia Code"
 }

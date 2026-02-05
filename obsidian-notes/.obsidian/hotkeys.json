@@ -17,14 +17,6 @@
     }
   ],
   "editor:delete-paragraph": [],
-  "periodic-notes:open-daily-note": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "D"
-    }
-  ],
   "obsidian-tasks-plugin:edit-task": [
     {
       "modifiers": [
@@ -33,7 +25,14 @@
       "key": "T"
     }
   ],
-  "workspace:undo-close-pane": [],
+  "workspace:undo-close-pane": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
+  ],
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
@@ -60,22 +59,6 @@
       "key": "T"
     }
   ],
-  "templater-obsidian:x/templates/a-snippet.md": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Numpad1"
-    }
-  ],
-  "templater-obsidian:create-x/templates/a-snippet.md": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Numpad1"
-    }
-  ],
   "file-explorer:new-file": [],
   "workspace:new-tab": [
     {
@@ -94,14 +77,6 @@
       "key": "T"
     }
   ],
-  "workspace:close": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "W"
-    }
-  ],
   "workspaces:load": [
     {
       "modifiers": [
@@ -111,7 +86,6 @@
       "key": "W"
     }
   ],
-  "workspace:close-window": [],
   "editor:toggle-fold-properties": [
     {
       "modifiers": [
@@ -120,13 +94,22 @@
       "key": "F"
     }
   ],
+  "workspace:close-window": [],
   "omnisearch:show-modal": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
       "key": "O"
+    }
+  ],
+  "switcher:open": [],
+  "notebook-navigator:open-daily-note": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
     }
   ]
 }

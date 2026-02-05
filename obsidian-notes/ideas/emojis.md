@@ -1,13 +1,16 @@
 ---
+type: note
 template-version: 1
 title: Emojis
+created: 2026-01-22 17:18
 aliases:
   - Emojis
-created: 2026-01-22 17:18
 tags:
   - reference
 navigate-up:
   - "[[main|🔝]]"
+edit-status: complete
+description: Emojis used in this vault
 ---
 ###### [[main|🔝]]
 # Emojis
@@ -60,17 +63,17 @@ navigate-up:
 ```
 💬 (speech balloon)
 ```
-### 📝 Notes / 📋✔️ tasks
+### 📝 Notes / 📋✔️☑️ tasks
 ```
 📝 (memo)
 📋 (clipboard)
 ✔️ (check mark)
+☑️ (check box with check)
 ```
-### 🧑‍🤝‍🧑 People / 👨‍👩‍👧‍👦 family / 🧗‍♀️ Oleisa
+### 🧑‍🤝‍🧑 People / 👨‍👩‍👧‍👦 family
 ```
 🧑‍🤝‍🧑 (people holding hands)
 👨‍👩‍👧‍👦 (family: man, woman, girl, boy)
-🧗‍♀️ (woman climbing)
 ```
 ### 🗺️ Places / 🏡 homes / 🌴 local / 🏫 schools / 🏬 other
 ```
