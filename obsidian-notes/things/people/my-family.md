@@ -2,13 +2,15 @@
 type: note
 template-version: 1
 title: 👨‍👩‍👧‍👦 My family
+created: 2026-01-10 02:17
 aliases:
   - My family
-created: 2026-01-10 02:17
+  - 👨‍👩‍👧‍👦 My family
 tags:
   - people/family
-navigate-up: "[[people-main|People]]"
+navigate-up: "[[people-main|🧑‍🤝‍🧑 People]]"
 edit-status: complete
+description: My family MOC
 ---
 ###### [[people-main|🧑‍🤝‍🧑 People]]
 # 👨‍👩‍👧‍👦 My family

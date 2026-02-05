@@ -2,9 +2,9 @@
 type: account
 template-version: 4
 title: Unspecified income
+created: 2026-02-02 00:31
 aliases:
   - Unspecified income
-created: 2026-02-02 00:31
 tags:
   - finance/accounts
 navigate-up:

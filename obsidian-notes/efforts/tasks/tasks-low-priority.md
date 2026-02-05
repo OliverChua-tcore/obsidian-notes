@@ -2,16 +2,17 @@
 type: note
 template-version: 1
 title: 🔽 Low priority tasks
+created: 2026-01-23 03:00
 aliases:
   - Low priority tasks
   - 🔽 Low priority tasks
-created: 2026-01-23 03:00
 tags:
   - tasks
 navigate-up:
   - "[[tasks-main|📋 Tasks]]"
 TQ_short_mode: true
 edit-status: complete
+description: Task checklist
 ---
 ###### [[tasks-main|📋 Tasks]]
 ## 🔽 Low priority tasks

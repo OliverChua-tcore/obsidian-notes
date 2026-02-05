@@ -2,9 +2,9 @@
 type: note
 template-version: 1
 title: Rating system
+created: 2026-01-15 16:56
 aliases:
   - Rating system
-created: 2026-01-15 16:56
 tags:
   - reference
 navigate-up:

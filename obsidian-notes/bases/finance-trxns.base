@@ -33,7 +33,7 @@ properties:
   note.edit-status:
     displayName: Edit status
   note.template-version:
-    displayName: Template version
+    displayName: Template
   note.trxn-cleared-statement:
     displayName: Statement
 views:
@@ -49,13 +49,13 @@ views:
       - trxn-cleared-date
       - trxn-amount
       - trxn-currency
+      - trxn-cleared-statement
       - trxn-from
       - trxn-to
       - trxn-payee
       - trxn-memo
       - template-version
       - edit-status
-      - trxn-cleared-statement
     sort:
       - property: trxn-cleared
         direction: ASC
@@ -76,7 +76,7 @@ views:
       note.trxn-to: 450
       note.trxn-payee: 300
       note.trxn-memo: 300
-      note.template-version: 150
+      note.template-version: 100
       note.edit-status: 100
       note.trxn-cleared-statement: 250
   - type: table

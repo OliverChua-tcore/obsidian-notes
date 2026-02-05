@@ -2,16 +2,17 @@
 type: note
 template-version: 1
 title: 🚗 Car tasks
+created: 2026-01-26 01:19
 aliases:
   - Car tasks
   - 🚗 Car tasks
-created: 2026-01-26 01:19
 tags:
   - tasks
 navigate-up:
   - "[[tasks-main|📋 Tasks]]"
 TQ_short_mode: true
 edit-status: complete
+description: Task checklist
 ---
 ###### [[tasks-main|📋 Tasks]]
 ## 🚗 Car tasks

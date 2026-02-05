@@ -2,9 +2,9 @@
 type: account
 template-version: 4
 title: Unspecified expenses
+created: 2026-02-02 00:48
 aliases:
   - Unspecified expenses
-created: 2026-02-02 00:48
 tags:
   - finance/accounts
 navigate-up:

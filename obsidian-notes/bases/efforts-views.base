@@ -18,7 +18,7 @@ properties:
   note.type:
     displayName: Type
   note.template-version:
-    displayName: Template version
+    displayName: Template
   note.edit-status:
     displayName: Edit status
 views:
@@ -45,7 +45,7 @@ views:
     columnSize:
       file.name: 80
       note.title: 500
-      note.created: 150
+      note.created: 170
       file.mtime: 150
       note.tags: 500
       note.aliases: 500

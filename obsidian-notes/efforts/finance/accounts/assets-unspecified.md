@@ -2,9 +2,9 @@
 type: account
 template-version: 4
 title: Unspecified assets
+created: 2026-02-03 12:10
 aliases:
   - Unspecified assets
-created: 2026-02-03 12:10
 tags:
   - finance/accounts
 navigate-up:

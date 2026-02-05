@@ -379,7 +379,7 @@
   "pinnedNotes": {
     "efforts/tasks/tasks-main.md": {
       "folder": true,
-      "tag": false
+      "tag": true
     },
     "bases/bases-main.md": {
       "folder": true,
@@ -418,6 +418,18 @@
       "tag": false
     },
     "ideas/retail/shopping-lists-main.md": {
+      "folder": true,
+      "tag": false
+    },
+    "things/people/my-family.md": {
+      "folder": true,
+      "tag": false
+    },
+    "things/people/people-main.md": {
+      "folder": true,
+      "tag": false
+    },
+    "things/software/software-main.md": {
       "folder": true,
       "tag": false
     }

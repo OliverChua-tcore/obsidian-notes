@@ -791,7 +791,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 636.5
+        "width": 650
       },
       "right": {
         "id": "1c0ac73e604c7109",
@@ -800,7 +800,7 @@
           {
             "id": "e945b1525755f308",
             "type": "tabs",
-            "dimension": 52.783300198807154,
+            "dimension": 50,
             "children": [
               {
                 "id": "e33a9b9716cc9efd",
@@ -912,13 +912,23 @@
                   "icon": "lucide-archive",
                   "title": "All properties"
                 }
+              },
+              {
+                "id": "5fe18f3b72951940",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
               }
             ]
           },
           {
             "id": "0b6c82ddd879ccf2",
             "type": "tabs",
-            "dimension": 47.21669980119283,
+            "dimension": 50,
             "children": [
               {
                 "id": "dc707a9bf7661778",
@@ -980,7 +990,7 @@
         }
       },
       "active": "08c661ede9474819",
-      "mtime": "2026-02-04T02:54:53-08:00"
+      "mtime": "2026-02-04T19:09:49-05:00"
     }
   },
   "active": "Notebook Navigator"

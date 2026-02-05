@@ -1,13 +1,17 @@
 ---
+type: note
+template-version: 1
 title: 🏡 Our homes & addresses
+created: 2026-01-08 18:34
 aliases:
   - Our homes & addresses
   - 🏡 Our homes & addresses
-created: 2026-01-08 18:34
 tags:
   - places/my-homes
 navigate-up:
   - "[[main|🔝]]"
+edit-status: complete
+description: Our homes & addresses MOC
 ---
 ###### [[main|🔝]]
 # 🏡Our homes & addresses

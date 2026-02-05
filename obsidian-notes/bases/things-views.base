@@ -26,7 +26,7 @@ properties:
   note.type:
     displayName: Type
   note.template-version:
-    displayName: Template version
+    displayName: Template
   note.edit-status:
     displayName: Edit status
   note.car-name:
@@ -57,12 +57,12 @@ views:
     columnSize:
       file.name: 80
       note.title: 500
-      note.created: 120
-      file.mtime: 180
+      note.created: 170
+      file.mtime: 150
       note.tags: 500
       note.aliases: 500
       note.type: 100
-      note.template-version: 140
+      note.template-version: 100
       note.edit-status: 100
   - type: cards
     name: Cars we've owned
@@ -108,7 +108,7 @@ views:
       note.aliases: 500
       file.tags: 500
       note.type: 100
-      note.template-version: 140
+      note.template-version: 100
       note.edit-status: 100
   - type: table
     name: Software

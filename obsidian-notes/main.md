@@ -1,9 +1,9 @@
 ---
 title: 🔝 Homepage
+created: 2026-01-15 23:34
 aliases:
   - 🔝
   - Homepage
-created: 2026-01-15 23:34
 description: Start here
 ---
 # Personal Knowledge Management (PKM) notes
@@ -48,7 +48,7 @@ views:
 ### 👨‍👩‍👧‍👦 [[my-family|My family]]
 - 🏡 [[my-homes|Our homes & addresses]]
 - 🚗 [[my-cars|Cars we've owned]]
-- 📦 [[inventory|Inventory]]
+- 📦 [[inventory-main|Inventory]]
 
 ## Finance
 - 💰 [[chart-of-accounts|Chart of accounts]]

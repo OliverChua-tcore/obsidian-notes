@@ -42,34 +42,5 @@ views:
       note.short-code: 120
       note.account-label: 400
       note.account-name: 550
-      note.template-version: 120
-      note.edit-status: 120
-  - type: table
-    name: Not on latest template
-    filters:
-      and:
-        - note["template-version"] != 4
-    groupBy:
-      property: account-type
-      direction: ASC
-    order:
-      - file.name
-      - account-group
-      - short-code
-      - account-label
-      - account-name
-      - template-version
-      - edit-status
-    sort:
-      - property: account-group
-        direction: ASC
-      - property: account-label
-        direction: ASC
-    columnSize:
-      file.name: 80
-      note.account-group: 120
-      note.short-code: 120
-      note.account-label: 400
-      note.account-name: 550
-      note.template-version: 120
-      note.edit-status: 120
+      note.template-version: 100
+      note.edit-status: 100

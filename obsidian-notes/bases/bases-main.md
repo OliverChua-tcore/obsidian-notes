@@ -2,9 +2,9 @@
 type: note
 template-version: 1
 title: Bases
+created: 2026-01-11 21:18
 aliases:
   - Bases
-created: 2026-01-11 21:18
 tags:
   - bases
 navigate-up:

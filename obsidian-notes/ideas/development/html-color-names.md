@@ -2,13 +2,13 @@
 type: note
 template-version: 1
 title: HTML color names
+created: 2026-02-02 08:00
 aliases:
   - HTML color names
-created: 2026-02-02 08:00
 tags:
   - development/web
 navigate-up:
-  - "[[undefined]]"
+  - "[[Web development]]"
 source: https://htmlcolorcodes.com/color-names
 source-date: 2026-02-02
 edit-status: complete

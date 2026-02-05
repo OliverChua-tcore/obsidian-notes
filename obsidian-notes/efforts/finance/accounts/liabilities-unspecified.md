@@ -2,9 +2,9 @@
 type: account
 template-version: 4
 title: Unspecified liabilities
+created: 2026-02-03 12:14
 aliases:
   - Unspecified liabilities
-created: 2026-02-03 12:14
 tags:
   - finance/accounts
 navigate-up:

@@ -2,16 +2,17 @@
 type: note
 template-version: 1
 title: 🏡 Home tasks
+created: 2026-01-14 02:35
 aliases:
   - Home tasks
   - 🏡 Home tasks
-created: 2026-01-14 02:35
 tags:
   - tasks
 navigate-up:
   - "[[tasks-main|📋 Tasks]]"
 TQ_short_mode: true
 edit-status: complete
+description: Task checklist
 ---
 ###### [[tasks-main|📋 Tasks]]
 ## 🏡 Home tasks

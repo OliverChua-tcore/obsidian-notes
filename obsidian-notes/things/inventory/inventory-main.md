@@ -1,12 +1,17 @@
 ---
+type: note
+template-version: 1
 title: 📦 Inventory
+created: 2026-01-18 00:18
 aliases:
   - Inventory
-created: 2026-01-18 00:18
+  - 📦 Inventory
 tags:
   - inventory
 navigate-up:
   - "[[main|🔝]]"
+edit-status: complete
+description: Inventory MOC
 ---
 ###### [[main|🔝]]
 # 📦 Inventory

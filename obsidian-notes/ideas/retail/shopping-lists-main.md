@@ -2,9 +2,10 @@
 type: note
 template-version: 1
 title: 🛒 Shopping lists
+created: 2026-01-14 15:42
 aliases:
   - Shopping lists
-created: 2026-01-14 15:42
+  - 🛒 Shopping lists
 tags:
   - retail
 navigate-up:
@@ -12,6 +13,7 @@ navigate-up:
 edit-status: complete
 description: Shopping lists MOC
 ---
+###### [[main|🔝]]
 # 🛒 Shopping lists
 
 ```base

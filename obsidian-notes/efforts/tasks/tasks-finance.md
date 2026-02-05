@@ -2,16 +2,17 @@
 type: note
 template-version: 1
 title: 💰 Financial tasks
+created: 2026-01-14 02:14
 aliases:
   - Financial tasks
   - 💰 Financial tasks
-created: 2026-01-14 02:14
 tags:
   - tasks
 navigate-up:
   - "[[tasks-main|📋 Tasks]]"
 TQ_short_mode: true
 edit-status: complete
+description: Task checklist
 ---
 ###### [[tasks-main|📋 Tasks]]
 ## 💰 Financial tasks

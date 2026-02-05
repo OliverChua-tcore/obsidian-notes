@@ -2,9 +2,9 @@
 type: note
 template-version: 1
 title: Emojis
+created: 2026-01-22 17:18
 aliases:
   - Emojis
-created: 2026-01-22 17:18
 tags:
   - reference
 navigate-up:

@@ -2,10 +2,10 @@
 type: note
 template-version: 1
 title: 📋 Tasks
+created: 2026-01-11 03:59
 aliases:
   - Tasks
   - 📋 Tasks
-created: 2026-01-11 03:59
 tags:
   - tasks
 navigate-up:

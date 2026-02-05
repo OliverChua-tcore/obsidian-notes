@@ -2,16 +2,17 @@
 type: note
 template-version: 1
 title: ☑️ Other tasks
+created: 2026-01-23 02:45
 aliases:
   - Other tasks
   - ☑️ Other tasks
-created: 2026-01-23 02:45
 tags:
   - tasks
 navigate-up:
   - "[[tasks-main|📋 Tasks]]"
 TQ_short_mode: true
 edit-status: complete
+description: Task checklist
 ---
 ###### [[tasks-main|📋 Tasks]]
 ## ☑️ Other tasks

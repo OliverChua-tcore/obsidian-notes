@@ -2,9 +2,9 @@
 type: note
 template-version: 1
 title: "Recurring tasks"
+created: 2026-01-14 23:54
 aliases:
   - "Recurring tasks"
-created: 2026-01-14 23:54
 tags:
   - tasks
 navigate-up:
