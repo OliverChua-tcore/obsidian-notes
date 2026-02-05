@@ -27,6 +27,22 @@ repository:
 %%
 # Git
 
-</br>
+## Create a private fork of a public repository[^fork]
+```shell
+git clone --bare https://github.com/original-owner/public-repo.git public-repo
+cd public-repo
+
+git push --mirror https://github.com/your-username/private-repo.git
+cd ..
+
+git clone https://github.com/your-username/private-repo.git private-repo
+cd private-repo
+
+git remote add public https://github.com/original-owner/public-repo.git
+git pull public main
+git push origin main
+```
+
+[^fork]: [[2025-10-03]] https://docs.8labs.id/docs/git/private-fork
 
 ## 📝 Notes
