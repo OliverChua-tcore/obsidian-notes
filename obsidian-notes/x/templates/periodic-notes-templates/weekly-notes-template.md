@@ -14,7 +14,7 @@ description: Weekly note
 ---
 <%*
 
-// Template for weekly notes (filename: "YYYY-Week-WW", e.g., "2026-Week-01")
+// Template for weekly notes (filename: "YYYY-[W]WW", e.g., "2026-W01")
 
 -%>
 

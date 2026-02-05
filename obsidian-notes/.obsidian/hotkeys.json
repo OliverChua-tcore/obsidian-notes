@@ -17,14 +17,6 @@
     }
   ],
   "editor:delete-paragraph": [],
-  "periodic-notes:open-daily-note": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "D"
-    }
-  ],
   "obsidian-tasks-plugin:edit-task": [
     {
       "modifiers": [
@@ -115,10 +107,18 @@
   "omnisearch:show-modal": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
       "key": "O"
+    }
+  ],
+  "switcher:open": [],
+  "notebook-navigator:open-daily-note": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
     }
   ]
 }

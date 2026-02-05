@@ -1,10 +1,10 @@
 {
   "pinned": [
-    "obsidian-tasks-plugin:edit-task",
-    "zk-prefixer",
-    "periodic-notes:open-daily-note",
+    "notebook-navigator:open-daily-note",
     "obsidian-sort-and-permute-lines:sort-alphabetically",
     "obsidian-sort-and-permute-lines:sort-list-alphabetically",
+    "obsidian-tasks-plugin:edit-task",
+    "zk-prefixer",
     "workspaces:load"
   ]
 }

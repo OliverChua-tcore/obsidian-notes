@@ -94,7 +94,7 @@
   "calendarConfirmBeforeCreate": true,
   "calendarIntegrationMode": "notebook-navigator",
   "calendarCustomFilePattern": "[1-daily-notes]/YYYY/YYYY-MM-DD-dddd",
-  "calendarCustomWeekPattern": "[2-weekly-notes]/YYYY/YYYY-[Week]-ww",
+  "calendarCustomWeekPattern": "[2-weekly-notes]/YYYY/YYYY-[W]WW",
   "calendarCustomMonthPattern": "[3-monthly-notes]/YYYY/YYYY-MM-MMMM",
   "calendarCustomQuarterPattern": "[4-quarterly-notes]/YYYY-[Quarter]-Q",
   "calendarCustomYearPattern": "[5-yearly-notes]/YYYY-[Year]",
