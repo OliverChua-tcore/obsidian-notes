@@ -28,11 +28,6 @@ source: https://ledger-cli.org/doc/ledger3.html
 
 ## Basics: File and report options
 
-##### Location of `transactions.ledger` file
-```bash
-cd /mnt/d/source-code/oliverchua/obsidian-notes/obsidian-notes/x
-```
-
 ##### Specify a file per command
 ```bash
 ledger -f /path/to/transactions.ledger [OPTION] ...

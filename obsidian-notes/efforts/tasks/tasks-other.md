@@ -23,7 +23,6 @@ tags do not include cars
 tags do not include home
 tags do not include my-cars
 tags do not include my-homes
-tags do not include oleisa
 priority is above low
 preset group_by_scheduled
 
@@ -43,7 +42,6 @@ tags do not include cars
 tags do not include home
 tags do not include my-cars
 tags do not include my-homes
-tags do not include oleisa
 priority is above low
 
 show cancelled date

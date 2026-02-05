@@ -70,11 +70,10 @@ description: Emojis used in this vault
 ✔️ (check mark)
 ☑️ (check box with check)
 ```
-### 🧑‍🤝‍🧑 People / 👨‍👩‍👧‍👦 family / 🧗‍♀️ Oleisa
+### 🧑‍🤝‍🧑 People / 👨‍👩‍👧‍👦 family
 ```
 🧑‍🤝‍🧑 (people holding hands)
 👨‍👩‍👧‍👦 (family: man, woman, girl, boy)
-🧗‍♀️ (woman climbing)
 ```
 ### 🗺️ Places / 🏡 homes / 🌴 local / 🏫 schools / 🏬 other
 ```
