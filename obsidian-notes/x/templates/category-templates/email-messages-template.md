@@ -36,3 +36,5 @@ _{copy of email}_
 
 > [!cite]- Draft
 > _{store your draft here, if applicable, and you want to preserve it}_
+
+<% await tp.file.include("[[notes-snippet]]") %>

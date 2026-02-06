@@ -1,9 +1,9 @@
 ---
 title: chmod cheat sheet
+created: 2025-12-30 11:53
 aliases:
   - chmod
   - chmod cheat sheet
-created: 2025-12-30 11:53
 tags:
   - software/linux
   - software/security

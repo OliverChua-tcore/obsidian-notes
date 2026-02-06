@@ -9,36 +9,7 @@ description: Start here
 # Personal Knowledge Management (PKM) notes
 
 ### 📆 Daily notes
-```base
-filters:
-  and:
-    - file.tags.contains("daily-notes")
-properties:
-  file.name:
-    displayName: Daily note
-views:
-  - type: list
-    name: Recent daily notes
-    filters:
-      and:
-        - note["short-date"] <= today()
-    order:
-      - file.name
-    sort:
-      - property: file.name
-        direction: DESC
-    limit: 7
-  - type: list
-    name: Today ± 30 days
-    filters:
-      and:
-        - note["short-date"] <= today() + duration("30 days")
-        - note["short-date"] >= today() - duration("30 days")
-    order:
-      - file.name
-    sort:
-      - property: file.name
-        direction: DESC
+![[calendar-notes.base]]
 
 ```
 
