@@ -11,6 +11,7 @@ tags:
   - review/weekly
 navigate-up:
 description: Weekly note
+scope: private
 ---
 <%*
 

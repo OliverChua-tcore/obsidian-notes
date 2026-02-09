@@ -11,6 +11,7 @@ navigate-up:
   - "[[main|🔝]]"
 edit-status: complete
 description: Emojis used in this vault
+scope: mixed
 ---
 ###### [[main|🔝]]
 # Emojis

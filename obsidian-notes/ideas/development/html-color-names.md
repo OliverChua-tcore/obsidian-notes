@@ -13,6 +13,7 @@ source: https://htmlcolorcodes.com/color-names
 source-date: 2026-02-02
 edit-status: complete
 description: Names and values for standard web colors
+scope: public
 ---
 # HTML color names
 

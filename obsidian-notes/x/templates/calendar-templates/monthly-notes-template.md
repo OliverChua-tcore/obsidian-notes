@@ -33,6 +33,7 @@ tags:
 navigate-up:
   - "[[<% navigateUp %>]]"
 description: Monthly note    # 1.1
+scope: private
 ---
 <%*
 

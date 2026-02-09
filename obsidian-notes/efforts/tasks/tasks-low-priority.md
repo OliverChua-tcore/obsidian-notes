@@ -13,6 +13,7 @@ navigate-up:
 TQ_short_mode: true
 edit-status: complete
 description: Task checklist
+scope: public
 ---
 ###### [[tasks-main|📋 Tasks]]
 ## 🔽 Low priority tasks

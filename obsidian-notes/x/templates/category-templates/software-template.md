@@ -26,6 +26,7 @@ website:                        # the links to the websites for the software (i.
 repository:                     # the links where the source code for the software are hosted (e.g., GitHub)
   - "[[<% defaultValue %>]]"
 edit-status: new                # new | in-progress | complete
+scope: private
 ---
 <%*
 

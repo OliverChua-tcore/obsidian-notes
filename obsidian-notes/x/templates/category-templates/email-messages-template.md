@@ -20,6 +20,7 @@ email-date: <% tp.date.now("YYYY-MM-DD") %>
 email-contacts:
   - "[[<% defaultValue %>]]"
 edit-status: new    # new | in-progress | complete
+scope: private
 ---
 <%*
 

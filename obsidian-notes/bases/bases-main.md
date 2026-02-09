@@ -6,20 +6,26 @@ created: 2026-01-11 21:18
 aliases:
   - Bases
 tags:
-  - bases
+  - moc
 navigate-up:
   - "[[main|🔝]]"
 edit-status: complete
-description: Bases MOC
+description: MOC for MOC bases
+scope: public
 ---
 ###### [[main|🔝]]
 # Bases
 
 ## Folder views
+- [[branch-+.base#"+" MOC|/+]]
+- [[branch-calendar.base#CALENDAR MOC|/calendar]]
+- [[branch-efforts.base#EFFORTS MOC|/efforts]]
+- [[branch-ideas.base#IDEAS MOC|/ideas]]
+- [[branch-things.base#THINGS MOC|/things]]
+- [[branch-x.base#"X" MOC|/x]]
 
-- [[+-views.base|/+]]
-- [[calendar-views.base|/calendar]]
-- [[efforts-views.base|/efforts]]
-- [[ideas-views.base|/ideas]]
-- [[things-views.base|/things]]
-- [[x-views.base|/x]]
+## Note TAG views
+- [[tag-inventory.base#All inventory MOC]]
+
+## Note TYPE views
+- [[type-ticket.base#All tickets MOC]]

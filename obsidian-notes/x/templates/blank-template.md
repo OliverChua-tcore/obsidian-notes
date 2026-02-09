@@ -19,6 +19,7 @@ navigate-up:
   - "[[<% defaultValue %>]]"
 edit-status: new                              # new | in-progress | complete
 description: 
+scope: private                                # private | shared | public | mixed
 ---
 <%*
 

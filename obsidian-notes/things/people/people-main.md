@@ -7,15 +7,15 @@ aliases:
   - People
   - 🧑‍🤝‍🧑 People
 tags:
+  - moc
   - people
 navigate-up:
   - "[[main|🔝]]"
 edit-status: complete
-description: People MOC
+description: MOC for people
+scope: public
 ---
 ###### [[main|🔝]]
 # 🧑‍🤝‍🧑 People
 
-![[things-views.base#People]]
-
-### 👨‍👩‍👧‍👦 [[my-family|My family]]
+![[branch-things.base#People]]

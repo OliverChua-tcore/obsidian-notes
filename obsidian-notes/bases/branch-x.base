@@ -21,7 +21,7 @@ properties:
     displayName: File size
 views:
   - type: table
-    name: '"X"'
+    name: '"X" MOC'
     groupBy:
       property: file.folder
       direction: ASC

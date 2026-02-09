@@ -12,6 +12,7 @@ navigate-up:
 comm-date: <% tp.date.now("YYYY-MM-DD") %>
 comm-contacts: []
 edit-status: new                              # new | in-progress | complete
+scope: private
 ---
 # <% tp.date.now("YYYY-MM-DD") %> chat: <% tp.file.title %>
 

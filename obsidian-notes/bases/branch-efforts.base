@@ -23,7 +23,7 @@ properties:
     displayName: Edit status
 views:
   - type: table
-    name: EFFORTS
+    name: EFFORTS MOC
     groupBy:
       property: file.folder
       direction: ASC

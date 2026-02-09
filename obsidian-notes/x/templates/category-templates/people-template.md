@@ -38,6 +38,7 @@ time-zone-shift:
 birthday:
 start-date:
 edit-status: new    # new | in-progress | complete
+scope: private
 ---
 <%*
 

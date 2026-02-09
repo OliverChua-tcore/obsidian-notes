@@ -39,6 +39,7 @@ cssclasses:
   - daily-note
   - day-<% dayName %>
 description: Daily note
+scope: private
 ---
 <%*
 
@@ -90,10 +91,10 @@ dv.el("div", nav[0] + ' ← ' + nav[1] + ' → ' + nav[2], { attr: { style: "pos
 
 ## 📜 Notes created or modified today
 > [!cite] 🆕 Notes created today
-> ![[notes-created.base]]
+> ![[dynamic-notes-created.base]]
 
 > [!cite]- ✏️ Notes last touched today
-> ![[notes-modified.base]]
+> ![[dynamic-notes-modified.base]]
 
 ## 📅 Daily questions
 ##### 🕙 Last night, I...

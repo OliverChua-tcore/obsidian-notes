@@ -1,6 +1,6 @@
 <%*
 
-// Template for adding the `aliases` property to an existing note
+// Snippet for adding the `aliases` property to an existing note
 
 -%>
 aliases:

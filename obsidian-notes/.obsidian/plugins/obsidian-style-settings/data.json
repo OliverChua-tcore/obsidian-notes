@@ -21,5 +21,6 @@
   "blue-topaz-theme@@enable-alternative-checkboxes": false,
   "blue-topaz-theme@@muted-activeline-bg": true,
   "Blue-Topaz-Codebox-Highlight@@code-line-number": true,
-  "Blue-Topaz-Codebox-Highlight@@muted-code-activeline-bg": true
+  "Blue-Topaz-Codebox-Highlight@@muted-code-activeline-bg": true,
+  "notebook-navigator-style-settings@@nn-theme-nav-bg@@light": "#F0FFF0"
 }

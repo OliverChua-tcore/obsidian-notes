@@ -21,6 +21,7 @@ tags:
 navigate-up:
   - "[[<% navigateUp %>]]"
 description: Yearly note    # 3.1
+scope: private
 ---
 <%*
 

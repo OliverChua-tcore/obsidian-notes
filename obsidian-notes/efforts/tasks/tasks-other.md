@@ -1,21 +1,22 @@
 ---
 type: note
 template-version: 1
-title: ☑️ Other tasks
+title: ☑️ Your tasks
 created: 2026-01-23 02:45
 aliases:
-  - Other tasks
-  - ☑️ Other tasks
+  - Your tasks
+  - ☑️ Your tasks
 tags:
   - tasks
 navigate-up:
-  - "[[tasks-main|📋 Tasks]]"
+  - "[[tasks-main-old|📋 Tasks]]"
 TQ_short_mode: true
 edit-status: complete
 description: Task checklist
+scope: public
 ---
 ###### [[tasks-main|📋 Tasks]]
-## ☑️ Other tasks
+## ☑️ Your tasks
 ```tasks
 filter by function !task.isDone
 priority is above low

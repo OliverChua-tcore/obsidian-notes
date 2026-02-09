@@ -11,6 +11,7 @@ navigate-up:
   - "[[Web development]]"
 edit-status: in-progress
 description: Cascading Style Sheets parameters
+scope: public
 ---
 # CSS properties
 

@@ -21,7 +21,7 @@ properties:
     displayName: Template
 views:
   - type: table
-    name: CALENDAR
+    name: CALENDAR MOC
     groupBy:
       property: file.folder
       direction: ASC

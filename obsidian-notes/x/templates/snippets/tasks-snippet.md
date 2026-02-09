@@ -1,6 +1,6 @@
 <%*
 
-// Template for adding a `Tasks` section to an existing note
+// Snippet for adding a `Tasks` section to an existing note
 
 -%>
 ## 📋 Tasks

@@ -428,6 +428,14 @@
     "things/software/software-main.md": {
       "folder": true,
       "tag": false
+    },
+    "efforts/tickets-main.md": {
+      "folder": true,
+      "tag": false
+    },
+    "things/inventory/inventory-main.md": {
+      "folder": true,
+      "tag": false
     }
   },
   "fileIcons": {},
@@ -443,9 +451,6 @@
     "calendar/5-yearly-notes": "material-icons:calendar_month",
     "+": "material-icons:move_to_inbox",
     "x": "material-icons:storage",
-    "efforts/finance": "material-icons:attach_money",
-    "efforts/finance/accounts": "material-icons:attach_money",
-    "efforts/finance/transactions": "material-icons:attach_money",
     "efforts/sports": "material-icons:sports_soccer",
     "efforts/projects": "material-icons:construction",
     "efforts/education": "material-icons:school",
@@ -455,7 +460,6 @@
     "x/attachments": "material-icons:attach_file",
     "x/scripts": "material-icons:code",
     "x/templates/snippets": "material-icons:text_snippet",
-    "x/templates/periodic-notes-templates": "material-icons:text_snippet",
     "x/templates/examples": "material-icons:text_snippet",
     "x/templates/category-templates": "material-icons:text_snippet",
     "x/templates": "material-icons:text_snippet",
@@ -476,7 +480,8 @@
     "ideas/music": "material-icons:library_music",
     "ideas/retail": "material-icons:storefront",
     "ideas/social": "material-icons:people",
-    "ideas/travel": "material-icons:airplanemode_active"
+    "ideas/travel": "material-icons:airplanemode_active",
+    "x/templates/calendar-templates": "material-icons:text_snippet"
   },
   "folderColors": {
     "/": "#a855f7",

@@ -13,6 +13,7 @@ source: https://stephango.com/vault
 source-date: 2026-01-15
 edit-status: complete
 description: Description of rating system used for the rating property
+scope: public
 ---
 ###### [[main|🔝]]
 # Rating system
@@ -29,3 +30,5 @@ description: Description of rating system used for the rating property
 | 3      | **Bad**       | Don’t do this if you can                                     |
 | 2      | **Atrocious** | Actively avoid; repulsive                                    |
 | 1      | **Evil**      | Life-changing in a bad way                                   |
+
+## 📝 Notes

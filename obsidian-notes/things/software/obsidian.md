@@ -26,6 +26,8 @@ website:
 repository:
   - https://github.com/obsidianmd/obsidian-help
 edit-status: in-progress
+description: The settings for this vault
+scope: public
 ---
 %%
 	`software-name`: the name of the software or service
@@ -36,19 +38,23 @@ edit-status: in-progress
 %%
 # Obsidian
 
-## 🔃 Check for updates
+> [!tip] This note contains the settings for this vault
+
+## 🔃 Check for updates periodically
 - General
 - Appearance
 - Community plugins
 
-## ⌨️ Hotkeys in Windows
+## ⌨️ Hotkeys in Windows for this vault
 
 ### Select Obsidian hotkeys
-| Command              | Hotkey                  |
-| -------------------- | ----------------------- |
-| New tab              | `Ctrl + N`[^notdefault] |
-| Toggle left sidebar  | `Ctrl + L`[^notdefault] |
-| Toggle right sidebar | `Ctrl + R`[^notdefault] |
+| Command                                  | Hotkey                  |
+| ---------------------------------------- | ----------------------- |
+| New tab                                  | `Ctrl + N`[^notdefault] |
+| Toggle folder properties in current file | `Alt + F`[^notdefault]  |
+| Toggle left sidebar                      | `Ctrl + L`[^notdefault] |
+| Toggle right sidebar                     | `Ctrl + R`[^notdefault] |
+| Undo close tab                           | `Ctrl + U`[^notdefault] |
 
 ### Select ***==core==*** plugin hotkeys
 | Plugin              | Command                | Hotkey                          |
@@ -61,96 +67,71 @@ edit-status: in-progress
 | Workspaces          | Load workspace layout  | `Ctrl + Shift + W`[^notdefault] |
 
 ### Select ***==community==*** plugin hotkeys
-| Plugin         | Command                    | Hotkey                        |
-| -------------- | -------------------------- | ----------------------------- |
-| Periodic Notes | Open daily note            | `Ctrl + D`[^notdefault]       |
-| Tasks          | Create or edit task        | `Ctrl + T`[^notdefault]       |
-| Templater      | Open insert template modal | `Alt + E`                     |
-| Templater      | Create a-snippet           | `Ctrl + Numpad1`[^notdefault] |
-| Templater      | Insert a-snippet           | `Alt + Numpad1`[^notdefault]  |
+| Plugin             | Command                    | Hotkey                  |
+| ------------------ | -------------------------- | ----------------------- |
+| Notebook Navigator | Open daily note            | `Ctrl + D`[^notdefault] |
+| Omnisearch         | Vault search               | `Ctrl + O`[^notdefault] |
+| Tasks              | Create or edit task        | `Ctrl + T`[^notdefault] |
+| Templater          | Open insert template modal | `Alt + E`               |
 
 [^notdefault]: Not the default hotkey
 
-## 📝 Notes
-
+## 🔥 Tips
 - See the [[markdown|cheat sheet]] for _Markdown_ syntax
 - See the [[obsidian-callouts|cheat sheet]] for _callout_ syntax
 - You can swipe from the top and sides on mobile
 - Obsidian [[@kapano|CEO]]'s personal [vault template](https://github.com/kepano/kepano-obsidian)
 
-# ⚙️ Obsidian setup
+# ⚙️ Obsidian setup for this vault
 
 ## Folders & notes
 
+- [[main|🔝 Homepage]] — Top-level _Map of Content_[^moc] for this vault
 - `+` — _**inbox** for notes that need to be categorized_
 - `bases` — _for storing **base files**_
-	- [[bases-main]]
-	- [[+-views.base]]
-	- [[calendar-views.base]]
-	- [[efforts-views.base]]
-	- [[ideas-views.base]]
-	- [[things-views.base]]
-	- [[x-views.base]]
+	- [[bases-main|Bases]] — _Map of Content_[^moc] for Map of Content (MOC) bases
 - `calendar` — _for storing notes tied to a **time period**_
+	- [[out-of-office|🪹 Out-of-office dates]] — _Map of Content_[^moc] for out-of-office dates
 	- `1-daily-notes` — _uses [[daily-notes-template]]_
 	- `2-weekly-notes` — _uses [[weekly-notes-template]]_
 	- `3-monthly-notes` — _uses [[monthly-notes-template]]_
 	- `4-quarterly-notes` — _uses [[quarterly-notes-template]]_
 	- `5-yearly-notes` — _uses [[yearly-notes-template]]_
 - `efforts` — _for storing notes related to **action items**_
+	- [[tickets-main|🧑‍💻 Tickets]] — _Map of Content_[^moc] for support tickets
 	- `projects`
 	- `tasks`
-		- [[tasks-recurring]]
-		- [[tasks-main]]
+		- [[tasks-main|📋 Tasks]] — _Map of Content_[^moc] for tasks
+		- [[recurring-tasks|🔁 Recurring tasks]] — Note for storing recurring tasks
 - `ideas` — _for storing notes related to **knowledge items**_
-	- `communication` — _uses [[email-messages-template]]_
-	- `travel` — _uses [[trips-template]]_
-	- [[rating-system]]
+	- `communication` — _use [[email-messages-template]] or [[chat-messages-template]]_
+	- `development`
+	- `social`
 - `local` — _for notes you don't want synced to other devices or to the cloud_
 - `things` — _for storing notes related to **physical items**_
-	- `cars` — _uses [[cars-template]]_
+	- `inventory`
+		- [[inventory-main|Inventory]] — _Map of Content_[^moc] for inventory items
 	- `people` — _uses [[people-template]]_
-	- `places` — _uses [[places-template]], [[homes-template]]_
+		- [[people-main|🧑‍🤝‍🧑 People]] — _Map of Content_[^moc] for people
+	- `places` — _uses [[places-template]]_
+	- `software` — _uses [[software-template]]_
+		- [[software-main|Software]] — _Map of Content_[^moc] for software programs
 - `x` — _for storing the items that you normally don't need to access directly_
 	- `attachments` — _for storing **anything that's not a note**_
+	- `scripts` — _for storing [[JavaScript]] **scripts** used by [[obsidian-templater|Templater]]_
 	- `templates` — _for storing **templates**_[^template]
-		- [[a-snippet]]
-		- [[blank-template]]
+		- `calendar-templates` — _for storing templates used by the [[obsidian-notebook-navigator|Notebook Navigator]] plugin calendar_
 		- `category-templates` — _for storing templates used for various note categories_
-			- [[accounts-template]]
-			- [[cars-template]]
-			- [[email-messages-template]]
-			- [[homes-template]]
-			- [[inventory-template]]
-			- [[people-template]]
-			- [[places-template]]
-			- [[software-template]]
-			- [[transactions-template]]
-			- [[trips-template]]
 		- `examples` — _for storing example snippets_
-			- [[document-embed-example]]
-			- [[image-remote-example]]
-		- `periodic-notes-templates` — _for storing templates used by the [[obsidian-periodic-notes|Periodic Notes]] plugin_
-			- [[daily-notes-template]]
-			- [[weekly-notes-template]]
-			- [[monthly-notes-template]]
-			- [[quarterly-notes-template]]
-			- [[yearly-notes-template]]
 		- `snippets` — _for storing template snippets_
-			- [[date-when-snippet]]
-			- [[frontmatter-snippet]]
-				- [[frontmatter-title-snippet]]
-				- [[frontmatter-aliases-snippet]]
-				- [[frontmatter-created-snippet]]
-				- [[frontmatter-tags-snippet]]
-				- [[frontmatter-navigate-up-snippet]]
-			- [[notes-snippet]]
-			- [[tasks-snippet]]
 
+[^moc]: https://notes.linkingyourthinking.com/Cards/MOCs+Overview
 [^template]: See template files for descriptions
 
 ## Options
 > [!attention] Only the _changes_ to the default settings are outlined below
+
+> [!attention] This section may be out-of-date
 
 ### General
 - Advanced
@@ -188,14 +169,15 @@ edit-status: in-progress
 
 | Command                                     | Hotkey             |
 | ------------------------------------------- | ------------------ |
+| Graph view: Open local graph                | `Ctrl + Shift + G` |
 | New tab                                     | `Ctrl + N`         |
+| Notebook Navigator: Open daily note         | `Ctrl + D`         |
+| Omnisearch: Vault search                    | `Ctrl + O`         |
+| Tasks: Create or edit task                  | `Ctrl + T`         |
+| Toggle folder properties in current file    | `Alt + F`          |
 | Toggle left sidebar                         | `Ctrl + L`         |
 | Toggle right sidebar                        | `Ctrl + R`         |
-| Graph view: Open local graph                | `Ctrl + Shift + G` |
-| Periodic Notes: Open daily note             | `Ctrl + D`         |
-| Tasks: Create or edit task                  | `Ctrl + T`         |
-| Templater: Create a-snippet                 | `Ctrl + Numpad1`   |
-| Templater: Insert a-snippet                 | `Alt + Numpad1`    |
+| Undo close tab                              | `Ctrl + U`         |
 | Unique note creator: Create new unique note | `Ctrl + Shift + T` |
 | Workspaces: Load workspace layout           | `Ctrl + Shift + W` |
 
@@ -245,11 +227,9 @@ edit-status: in-progress
 | Plugin name                                              | Plugin author                           |
 | -------------------------------------------------------- | --------------------------------------- |
 | [[obsidian-advanced-tables\|Advanced Tables]]            | [[@tgrosinger]]                         |
-| [[obsidian-calendar\|Calendar]]                          | [[@liam]]                               |
 | [[obsidian-dataview\|Dataview]]                          | [[Michael Brenan]]                      |
 | [[obsidian-git\|Git]]                                    | [[Vinzent]]                             |
 | [[obsidian-hider\|Hider]]                                | [[@kepano]]                             |
-| [[obsidian-periodic-notes\|Periodic Notes]]              | [[@liam]]                               |
 | [[obsidian-sort\|Sort & Permute lines]]                  | [[Vinzent]]                             |
 | [[obsidian-style-settings\|Style Settings]]              | [[@mgmeyers]]                           |
 | [[obsidian-tasks\|Tasks]]                                | [[Clare Macrae]] and [[Ilyas Landikov]] |
@@ -257,9 +237,10 @@ edit-status: in-progress
 | [[obsidian-fold-properties\|Fold Properties By Default]] | [[Tommy Bergeron]]                      |
 
 ## Core plugins
+> [!attention] This section may be out-of-date
 
 ### Backlinks
-- Show backlinks at the bottom of notes `ON`
+- No changes to default settings
 
 ### Command palette
 - Pinned commands
@@ -285,7 +266,6 @@ edit-status: in-progress
 - Conflict resolution `Create conflict file`
 - Selective sync
 	- Excluded folders
-		- `+/legacy-notes`
 		- `local`
 	- All toggles `ON`
 - Vault configuration sync
@@ -303,13 +283,10 @@ edit-status: in-progress
 - Search engine `Brave`
 
 ## Community plugins
+> [!attention] This section may be out-of-date
 
 ### [[obsidian-advanced-tables|Advanced Tables]]
 - No changes to default settings
-
-### [[obsidian-calendar|Calendar]]
-- General Settings
-	- Show week number `ON`
 
 ### [[obsidian-dataview|Dataview]]
 - Enable JavaScript queries `ON`
@@ -345,7 +322,7 @@ edit-status: in-progress
 
 | Weekly notes         | Setting                   |
 | -------------------- | ------------------------- |
-| Format               | `YYYY/YYYY-[Week]-ww`     |
+| Format               | `YYYY/YYYY-[W]-WW`        |
 | Weekly note template | [[weekly-notes-template]] |
 | Note folder          | `calendar/2-weekly-notes` |
 
@@ -422,9 +399,6 @@ edit-status: in-progress
 | `calendar/3-monthly-notes`     | [[monthly-notes-template]]   |
 | `calendar/4-quarterly-notes`   | [[quarterly-notes-template]] |
 | `calendar/5-yearly-notes`      | [[yearly-notes-template]]    |
-| `efforts/finance/accounts`     | [[accounts-template]]        |
-| `efforts/finance/transactions` | [[transactions-template]]    |
-| `things/cars`                  | [[cars-template]]            |
 | `things/people`                | [[people-template]]          |
 | `things/places`                | [[places-template]]          |
 | `things/software`              | [[software-template]]        |

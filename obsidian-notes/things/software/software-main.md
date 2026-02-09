@@ -1,18 +1,21 @@
 ---
 type: note
 template-version: 1
-title: Software
+title: 💾 Software
 created: 2026-01-21 16:46
 aliases:
   - Software
+  - 💾 Software
 tags:
+  - moc
   - software
 navigate-up:
   - "[[main|🔝]]"
 edit-status: complete
-description: Software MOC
+description: MOC for software programs
+scope: public
 ---
 ###### [[main|🔝]]
-# Software
+# 💾 Software
 
-![[things-views.base#Software]]
+![[branch-things.base#Software]]

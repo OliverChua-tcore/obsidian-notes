@@ -13,6 +13,7 @@ navigate-up:
   - "[[software-main|Software]]"
 edit-status: complete
 description: Comparison of the three major open source software licenses
+scope: public
 ---
 # Software license comparison
 

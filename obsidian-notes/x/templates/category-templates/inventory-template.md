@@ -26,6 +26,7 @@ item-location: "[[<% defaultValue %>]]"
 start-date:
 end-date:
 edit-status: new    # new | in-progress | complete
+scope: private
 ---
 <%*
 

@@ -55,3 +55,21 @@ views:
       note.ticket-parent: 140
       note.ticket-status: 120
       note.ticket-title: 500
+  - type: table
+    name: All tickets MOC
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - file.name
+      - ticket-parent
+      - ticket-status
+      - ticket-title
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 120
+      note.ticket-parent: 140
+      note.ticket-status: 120
+      note.ticket-title: 500

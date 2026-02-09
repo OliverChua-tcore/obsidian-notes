@@ -35,7 +35,7 @@ properties:
     displayName: Short code
 views:
   - type: table
-    name: THINGS
+    name: THINGS MOC
     groupBy:
       property: file.folder
       direction: ASC
@@ -64,26 +64,12 @@ views:
       note.type: 100
       note.template-version: 100
       note.edit-status: 100
-  - type: cards
-    name: Cars we've owned
-    filters:
-      and:
-        - type == "car"
-    order:
-      - car-name
-      - short-code
-    sort:
-      - property: short-code
-        direction: DESC
-    image: note.cover-img
-    imageFit: contain
-    cardSize: 350
   - type: table
     name: People
     filters:
       and:
         - file.tags.contains("people")
-        - '!note["navigate-up"].containsAny(link("main", "🔝"), link("people", "People"))'
+        - '!file.tags.contains("moc")'
     groupBy:
       property: tags
       direction: ASC
@@ -115,7 +101,7 @@ views:
     filters:
       and:
         - file.tags.contains("software")
-        - file.name != "software"
+        - '!file.tags.contains("moc")'
     groupBy:
       property: navigate-up
       direction: ASC

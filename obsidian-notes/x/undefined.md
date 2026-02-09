@@ -1,7 +1,9 @@
 ---
 navigate-up:
   - "[[main|🔝]]"
+scope: public
 ---
+###### [[main|🔝]]
 # 404
 ###### Not Found
 %%

@@ -1,29 +1,36 @@
 ---
+type: note
+template-version: 1
 title: 🔝 Homepage
 created: 2026-01-15 23:34
 aliases:
   - 🔝
   - Homepage
-description: Start here
+  - 🔝 Homepage
+tags:
+  - moc
+navigate-up:
+edit-status: complete
+description: Top-level MOC for this vault
+scope: mixed
 ---
 # Personal Knowledge Management (PKM) notes
 
-### 📆 Daily notes
-![[calendar-notes.base]]
+## 📆 Daily notes
+![[dynamic-daily-notes.base#Recent daily notes]]
 
 > 🪹 [[out-of-office|Out-of-office dates]]
 
 ## 🧑‍💻 [[tickets-main|Tickets]]
-![[tickets-active-views.base]]
+![[type-ticket.base#Active tickets]]
 
 ## 📋 [[tasks-main|Tasks]]
-![[tasks-main#To-do/in-progress tasks]]
 > [!tip] Shortcut to add _tasks_ `Ctrl + T`
 
-## 🚧 Projects
+## 🚧 Projects #private
 </br>
 
-## 🗃️ Repositories
+## 🗃️ Repositories #private
 </br>
 
 ## Categories

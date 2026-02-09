@@ -1,0 +1,59 @@
+filters:
+  and:
+    - file.tags.contains("inventory")
+properties:
+  file.name:
+    displayName: File
+  note.title:
+    displayName: Item
+views:
+  - type: table
+    name: Active inventory
+    filters:
+      and:
+        - file.tags.contains("inventory/active")
+        - '!file.tags.contains("moc")'
+    groupBy:
+      property: item-location
+      direction: ASC
+    order:
+      - file.name
+      - title
+    sort:
+      - property: title
+        direction: ASC
+    columnSize:
+      file.name: 80
+      note.title: 400
+  - type: table
+    name: Inactive inventory
+    filters:
+      and:
+        - '!file.tags.contains("inventory/active")'
+        - '!file.tags.contains("moc")'
+    groupBy:
+      property: item-location
+      direction: ASC
+    order:
+      - file.name
+      - title
+    sort:
+      - property: title
+        direction: ASC
+    columnSize:
+      file.name: 80
+      note.title: 400
+  - type: table
+    name: All inventory MOC
+    groupBy:
+      property: item-location
+      direction: ASC
+    order:
+      - file.name
+      - title
+    sort:
+      - property: title
+        direction: ASC
+    columnSize:
+      file.name: 80
+      note.title: 400

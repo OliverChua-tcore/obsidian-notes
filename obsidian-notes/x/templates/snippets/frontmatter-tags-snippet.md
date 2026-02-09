@@ -1,6 +1,6 @@
 <%*
 
-// Template for adding the `tags` property to an existing note
+// Snippet for adding the `tags` property to an existing note
 
 -%>
 tags:

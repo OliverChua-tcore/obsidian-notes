@@ -8,8 +8,8 @@ const defaultValue = "undefined";
 
 let title = await tp.system.prompt("Title of file", tp.file.name);
 -%>
-type: 
-template-version: 
+type: note
+template-version: 1
 title: "<% title %>"
 created: <% tp.file.creation_date() %>
 aliases:
@@ -21,3 +21,4 @@ navigate-up:
   - "[[<% defaultValue %>]]"
 edit-status: new
 description: 
+scope: private

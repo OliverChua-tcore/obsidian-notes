@@ -1,29 +1,29 @@
 filters:
   and:
-    - file.folder.startsWith("+")
+    - file.folder.startsWith("ideas")
     - file.name != "_folder"
 properties:
   file.name:
     displayName: File
-  note.title:
-    displayName: Title
-  note.created:
-    displayName: Created
   file.mtime:
     displayName: Modified
-  note.tags:
-    displayName: Tags
+  note.title:
+    displayName: Title
   note.aliases:
     displayName: Aliases
-  note.type:
-    displayName: Type
-  note.template-version:
-    displayName: Template version
+  note.tags:
+    displayName: Tags
+  note.created:
+    displayName: Created
   note.edit-status:
     displayName: Edit status
+  note.template-version:
+    displayName: Template
+  note.type:
+    displayName: Type
 views:
   - type: table
-    name: '"+"'
+    name: IDEAS MOC
     groupBy:
       property: file.folder
       direction: ASC
@@ -43,9 +43,9 @@ views:
       - property: file.name
         direction: ASC
     columnSize:
-      file.name: 500
+      file.name: 80
       note.title: 500
-      note.created: 150
+      note.created: 170
       file.mtime: 150
       note.tags: 500
       note.aliases: 500

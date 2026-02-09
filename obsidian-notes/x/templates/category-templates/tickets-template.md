@@ -35,6 +35,7 @@ ticket-parent: "[[<% parentTicket %>]]"
 ticket-assigned:
   - "[[<% today %>]]"
 ticket-status: new       # new | in-progress | deployed | reassigned | shelved | canceled | info-only
+scope: private
 ---
 # <% ticketNumber %>: <% ticketTitle %>
 

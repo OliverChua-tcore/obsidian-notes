@@ -12,6 +12,7 @@ navigate-up:
   - "[[Social]]"
 edit-status: complete
 description: Tips on the use of name prefixes and suffixes
+scope: public
 ---
 # Name prefixes
 
@@ -34,9 +35,9 @@ description: Tips on the use of name prefixes and suffixes
 	- The father uses `Sr.` (Senior)
 - `II`, `III`, `IV`, etc.: Used when a man is named after a grandfather, uncle, or cousin
 - When spelled out, these are lowercase (e.g., "junior", "the second", "the third")
-- No comma is used before numerals (e.g., [[Robert Conner III]])
-- A comma is used before `Jr.` and `Sr.` (e.g., [[Dale Earnhardt, Jr.]])
-- If words follow the suffix, a comma is added (e.g., [[Sammy Davis, Jr.]], was a member of the [[Rat Pack]])
+- No comma is used before numerals (e.g., Robert Conner III)
+- A comma is used before `Jr.` and `Sr.` (e.g., Dale Earnhardt, Jr.)
+- If words follow the suffix, a comma is added (e.g., Sammy Davis, Jr., was a member of the Rat Pack)
 
 ### Academic and professional suffixes
 #### Degrees
@@ -45,21 +46,21 @@ description: Tips on the use of name prefixes and suffixes
 - Doctorate degrees (e.g., `PhD`, `MD`, `JD`, `EdD`)
 
 #### Professional titles
-- `Esq.`: Used for licensed [[attorneys]] in the U.S.
-- `CPA`: [[Certified Public Accountant]]
-- `CFA`: [[Chartered Financial Analyst]]
-- `PE`: [[Professional Engineer]]
-- `RN`: [[Registered Nurse]]
-- `PMP`: [[Project Management Professional]]
+- `Esq.`: Used for licensed attorneys in the U.S.
+- `CPA`: Certified Public Accountant
+- `CFA`: Chartered Financial Analyst
+- `PE`: Professional Engineer
+- `RN`: Registered Nurse
+- `PMP`: Project Management Professional
 - `CISA`, `CISSP`, `CISM`: Information security certifications
-- `MS`: [[Master Sommelier]]
-- `RA`, `AIA`, `RIBA`: [[Registered Architects]]
+- `MS`: Master Sommelier
+- `RA`, `AIA`, `RIBA`: Registered Architects
 
 ### Honorary and post-nominal suffixes
-  - `OBE`, `KBE`, `CBE`: Honors from the [[British]] monarchy (e.g., [[Order of the British Empire]])
+  - `OBE`, `KBE`, `CBE`: Honors from the British monarchy (e.g., Order of the British Empire)
   - `FRCPath`, `FRCS`, `MBE`: Professional or medical honors
-  - `QC`: [[Queen’s Counsel]] ([[UK]])
-  - `OFM`, `CSV`: Religious institute initials (e.g., [[Franciscan]], [[Clerics of Saint Viator]])
+  - `QC`: Queen’s Counsel (UK)
+  - `OFM`, `CSV`: Religious institute initials (e.g., Franciscan, Clerics of Saint Viator)
 
 ## Key rules
 
@@ -68,3 +69,5 @@ description: Tips on the use of name prefixes and suffixes
 - In the U.S., the suffix format is preferred for clarity (e.g., distinguishing `MD` vs. `PhD`)
 - Social suffixes (`Jr.`, `Sr.`, `II`) are most commonly used for _men_, though exceptions exist
 - Suffixes like `Jr.` may be dropped after a father’s death to avoid confusion
+
+## 📝 Notes
