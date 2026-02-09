@@ -10,5 +10,6 @@
   "maps",
   "omnisearch",
   "text-extractor",
-  "notebook-navigator"
+  "notebook-navigator",
+  "fold-properties-by-default"
 ]
